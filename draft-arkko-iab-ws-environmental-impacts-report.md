@@ -19,35 +19,32 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "TReport from the IAB Workshop on Environmental Impact of Internet Applications and Systems, 2022"
+abbrev: "E-Impact Workshop Report"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
-submissiontype: IETF  # also: "independent", "IAB", or "IRTF"
+docname: draft-arkko-iab-ws-environmental-impacts-report-latest
+submissiontype: IAB  # also: "independent", "IAB", or "IRTF"
 number:
 date:
-consensus: true
+consensus: false
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: IAB
+workgroup: IAB
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - environment
+ - energy
+ - Internet impacts
+ - sustainability
 venue:
-  group: WG
+  group: IAB
   type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Jari Arkko
+    organization: Ericsson
+    email: jari.arkko@ericsson.com
 
 normative:
 
