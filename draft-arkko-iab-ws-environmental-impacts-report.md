@@ -23,9 +23,20 @@ venue:
 
 author:
  -
+    ins: J. Arkko
     fullname: Jari Arkko
     organization: Ericsson
     email: jari.arkko@ericsson.com
+ -
+    ins: C. Perkins
+    fullname: Colin Perkins
+    organization: University of Glasgow
+    email: csp@csperkins.org
+ -
+    ins: S. Krishnan
+    fullname: Suresh Krishnan
+    organization: Cisco
+    email: suresh.krishnan@gmail.com
 
 normative:
 
@@ -33,164 +44,164 @@ informative:
   Adams:
     title: "Extending IPv6 to support Carbon Aware Networking"
     author:
-     - Chris Adams
-     - Stefano Salsano
-     - Hesham ElBakoury
+     - ins: Chris Adams
+     - ins: Stefano Salsano
+     - ins: Hesham ElBakoury
   Anderson:
     title: "Sustainability Telemetry"
     author:
-     - Per Anderson
-     - Suresh Krishnan
-     - Jan Lindblad
-     - Snezana Mitrovic
-     - Marisol Palmero
-     - Esther Roure
-     - Gonzalo Salgueiro
+     - ins: Per Anderson
+     - ins: Suresh Krishnan
+     - ins: Jan Lindblad
+     - ins: Snezana Mitrovic
+     - ins: Marisol Palmero
+     - ins: Esther Roure
+     - ins: Gonzalo Salgueiro
   Arkko:
     title: "Environmental Impacts of the Internet: Scope, Improvements, and Challenges"
     author:
-     - Jari Arkko
-     - Nina Lövehagen
-     - Pernilla Bergmark
+     - ins: Jari Arkko
+     - ins: Nina Lövehagen
+     - ins: Pernilla Bergmark
   Bolla:
     title: "6Green: Green Technologies for 5/6G Service- Based Architectures"
     author:
-     - R. Bolla
-     - R. Bruschi
-     - F. Davoli
-     - C. Lombardo
-     - Beatrice Siccardi
+     - ins: R. Bolla
+     - ins: R. Bruschi
+     - ins: F. Davoli
+     - ins: C. Lombardo
+     - ins: Beatrice Siccardi
   Clemm:
     title: "Green Networking Metrics"
     author:
-     - Alexander Clemm
-     - Lijun Dong
-     - Greg Mirsky
-     - Laurent Ciavaglia
-     - Jeff Tantsura
-     - Marie-Paule Odini
+     - ins: Alexander Clemm
+     - ins: Lijun Dong
+     - ins: Greg Mirsky
+     - ins: Laurent Ciavaglia
+     - ins: Jeff Tantsura
+     - ins: Marie-Paule Odini
   Clemm:
     title: "Challenges and Opportunities in Green Networking"
     author:
-     - Alexander Clemm
-     - Cedric Westphal
-     - Jeff Tantsura
-     - Laurent Ciavaglia
-     - Marie-Paule Odini
+     - ins: Alexander Clemm
+     - ins: Cedric Westphal
+     - ins: Jeff Tantsura
+     - ins: Laurent Ciavaglia
+     - ins: Marie-Paule Odini
   Eckert:
     title: "IETF and Energy – An Overview"
     author:
-     - Toerless Eckert
-     - Mohamed Boucadair
-     - Pascal Thubert
-     - Jeff Tantsura
-  GOF:
+     - ins: Toerless Eckert
+     - ins: Mohamed Boucadair
+     - ins: Pascal Thubert
+     - ins: Jeff Tantsura
+  GOS:
     title: "Tune In. Turn On. Cut Back. Finding the optimal streaming ‘default’ mode to increase energy efficiency, shift consumer expectations, and safeguard choice"
     author:
-     - Greening of Streaming
+     - ins: Greening of Streaming
   Jacob:
     title: "Towards a power-proportional Internet"
     author:
-     - Romain Jacob
+     - ins: Romain Jacob
   Jansen:
     title: "Environment, internet infrastructure, and digital rights"
     author:
-     - Fieke Jansen
-     - Maya Richman
+     - ins: Fieke Jansen
+     - ins: Maya Richman
   King:
     title: "On Principles for a Sustainability Stack"
     author:
-     - Michael King
-     - Suresh Krishnan
-     - Carlos Pignataro
-     - Pascal Thubert
-     - Eric Voit
+     - ins: Michael King
+     - ins: Suresh Krishnan
+     - ins: Carlos Pignataro
+     - ins: Pascal Thubert
+     - ins: Eric Voit
   Krishnan:
     title: "Sustainability considerations for networking equipment"
     author:
-     - Suresh Krishnan
-     - Carlos Pignataro
+     - ins: Suresh Krishnan
+     - ins: Carlos Pignataro
   Manner:
     title: "Sustainability Considerations"
     author:
-     - Jukka Manner
+     - ins: Jukka Manner
   Manojlovic:
     title: "Internet Infrastructure and Climate Justice"
     author:
-     - Vesna Manojlovic
+     - ins: Vesna Manojlovic
   Mattera:
     title: "Understanding the Full Emissions Impact from Internet Traffic"
     author:
-     - Mike Mattera
+     - ins: Mike Mattera
   Mattsson:
     title: "Environmental Impact of Crypto-Assets"
     author:
-     - John Preuß Mattsson
+     - ins: John Preuß Mattsson
   Moran:
     title: "CBOR is Greener than JSON"
     author:
-     - Brendan Moran
-     - Henk Birkholz
-     - Carsten Bormann
+     - ins: Brendan Moran
+     - ins: Henk Birkholz
+     - ins: Carsten Bormann
   Navarre:
     title: "It is time to reconsider multicast"
     author:
-     - Louis Navarre
-     - Franoçis Michel
-     - Olivier Bonaventure
+     - ins: Louis Navarre
+     - ins: Franoçis Michel
+     - ins: Olivier Bonaventure
   Nordman:
     title: "Applying Internet Architecture to Energy Systems"
     author:
-     - Bruce Nordman
+     - ins: Bruce Nordman
   Retana:
     title: "A Framework and Requirements for Energy Aware Control Planes"
     author:
-     - Alvaro Retana
-     - Russ White
-     - Manuel Paul
+     - ins: Alvaro Retana
+     - ins: Russ White
+     - ins: Manuel Paul
   Robinson:
     title: "Sea Change: Prioritizing the Environment in Internet Architecture"
     author:
-     - Shayna Robinson
-     - Remy Hellstern
-     - Mariana Diaz
+     - ins: Shayna Robinson
+     - ins: Remy Hellstern
+     - ins: Mariana Diaz
   Schien:
     title: "Rethinking Allocation in High-Baseload Systems: A Demand-Proportional Network Electricity Intensity Metric"
     author:
-     - Daniel Schien
-     - Paul Shabajee
-     - Chris Preist
+     - ins: Daniel Schien
+     - ins: Paul Shabajee
+     - ins: Chris Preist
   Schooler:
     title: "A Perspective on Carbon-aware Networking"
     author:
-     - Eve M. Schooler
-     - Rick Taylor
-     - Noa Zilberman
-     - Robert Soulé
-     - Dawn Nafus
-     - Rajit Manohar
-     - Uri Cummings
+     - ins: Eve M. Schooler
+     - ins: Rick Taylor
+     - ins: Noa Zilberman
+     - ins: Robert Soulé
+     - ins: Dawn Nafus
+     - ins: Rajit Manohar
+     - ins: Uri Cummings
   Kostentinos:
     title: "End-to-end Energy Efficiency at Service-level in Edge Cloud"
     author:
-     - Selome Kostentinos Tesfatsion
-     - Xuejun Cai
-     - Arif Ahmed
+     - ins: Selome Kostentinos Tesfatsion
+     - ins: Xuejun Cai
+     - ins: Arif Ahmed
   Thubert:
     title: "Digital Twin and Automation"
     author:
-     - Pascal Thubert
+     - ins: Pascal Thubert
   Vanderbauwhede:
     title: "Frugal Computing"
     author:
-     - Wim Vanderbauwhede
+     - ins: Wim Vanderbauwhede
   Welzl:
-    title: "Reducing Green House Gas Emissions With Congestion Control“
+    title: "Reducing Green House Gas Emissions With Congestion Control"
     author:
-     - Michael Welzl
-     - Ozgu Alay
-     - Peyman Teymoori
-     - Safiqul Islam
+     - ins: Michael Welzl
+     - ins: Ozgu Alay
+     - ins: Peyman Teymoori
+     - ins: Safiqul Islam
 
 --- abstract
 
@@ -204,8 +215,6 @@ TODO Abstract
 TODO Introduction
 
 # Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
 
 # Scope
 
@@ -293,13 +302,98 @@ The program committee members were:
 
 # Workshop Participants
 
-TBD
+* Alex Clemm
+* Ali Rezaki
+* Arif Ahmed
+* Beatrice Siccardi
+* Brendan Moran
+* Bruce Nordman
+* Carlos Pignataro
+* Carsten Bormann
+* Cedric Westphal
+* Chiara Lombardo
+* Chris Adams
+* Cindy Morgan
+* Colin Perkins
+* Daniel Schien
+* Dawn Nafus
+* Dom Robinson
+* Eric Voit
+* Eric Vyncke
+* Esther Roure Vila
+* Eve Schooler
+* Fieke Jansen
+* Franco Davoli
+* Gonzalo Salgueiro
+* Greg Mirsky
+* Henk Birkholz
+* Hesham ElBakoury
+* Hosein Badran
+* Iankang Yao
+* Jan Lindblad
+* Jari Arkko
+* Jens Malmodin
+* Jiankang Yao
+* John Preuß Mattsson
+* Jukka Manner
+* Julien Maisonneuve
+* Kristin Moyer
+* Lars Eggert
+* Laurent Ciavaglia
+* Lijun Dong
+* Louis Navarre
+* Louise Krug
+* Luis M. Contreras
+* Marisol Palmero Amador
+* Martin Flack
+* Maya Richman
+* Michael Welzl
+* Mike Mattera
+* Mohamed Boucadair
+* Nina Lövehagen
+* Noa Zilberman
+* Olivier Bonaventure
+* Pascal Thubert
+* Paul Shabajee
+* Per Andersson
+* Pernilla Bergmark
+* Peyman Teymoori
+* Qin Wu
+* Remy Hellstern
+* Rick Taylor
+* Rob WIlton
+* Rob Wilton
+* Romain Jacob
+* Russ White
+* Safiqul Islam
+* Selome Kostentinos Tesfatsion
+* Shayna Robinson
+* Snezana Mitrovic
+* Stefano Salsano
+* Suresh Krishnan
+* Tirumaleswar Reddy
+* Toerless Eckert
+* Uri Cummings
+* Vesna Manojlovic
+* Wim Vanderbauwhede
+* heb
 
 # IAB Members at the Time of Approval
 
-TBD
+* Jari Arkko, Ericsson
+* Deborah Brungard, AT&T
+* Lars Eggert, NetApp
+* Wes Hardaker, USC/ISI
+* Cullen Jennings, Cisco Systems
+* Mallory Knodel, Center for Democracy and Technology
+* Mirja Kühlewind, Ericsson
+* Zhenbin Li, Huawei
+* Tommy Pauly, Apple
+* David Schinazi, Google
+* Russ White, Akamai
+* Qin Wu, Huawei Technologies
+* Jiankang Yao, CNNIC China Internet Network Information Center
 
 # Acknowledgments
-{:numbered="false"}
 
 TODO acknowledge.
