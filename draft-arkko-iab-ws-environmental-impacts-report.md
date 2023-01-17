@@ -242,8 +242,18 @@ TBD
 
 The workshop itself did not address specific security topics. Of
 course, individual changes in Internet technology or operations that
-influence environmental impacts may also influence security aspects as
-well. These need to be looked at for every proposed change.
+influence environmental impacts may also influence security
+aspects. These need to be looked at for every proposed change.
+
+Such influence on security may come in different forms. For instance:
+
+* Streamlining what data is sent may improve privacy if less information
+is shared.
+
+* A mechanism that makes energy consumption information available may be susceptible to tampering or providing false information.
+
+* A mechanism that allows control of network elements for optimization purposes may be misused to cause denial-of-service or other types of attacks.
+
 
 # IANA Considerations
 
