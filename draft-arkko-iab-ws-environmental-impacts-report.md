@@ -212,6 +212,24 @@ TODO Abstract
 
 # Introduction
 
+The IAB ran an online workshop in December 2022 to begin to explore and understand the environmental impacts of the Internet. The workshop drew 26 accepted position papers. There were active discussions both in the meeting and on the workshop mailing list with altogether 75 participants. This report summarises the workshop inputs and discussions.
+
+Perhaps the main overriding observation is how much there is interest and urgency on this topic, among engineers, researchers, and businesses. The workshop drew around sixty participants, with .
+
+Discussion of the topics raised during the workshop will continue on a dedicated mailing list. 
+
+The meeting part of the workshop was divided into four sessions:
+
+* The first session was about the big picture and how the Internet influences the rest of the society (see {{session1}}).
+* The second session focused on what we know and do not know, and how we can measure environmental impacts (see {{session2}}).
+* The third session was about potential improvements (see {{session3}}).
+* The final fourth session was about conclusions and next steps (see {{session4}}).
+
+The discussion at the IETF will continue after the workshop, both around specific proposals as well as general discussion on a new mailing list. Some improvements addressing specific situations are being discussed at the IETF, such as the Time Variant Routing (TVR) proposal that can help optimize connectivity with systems that are periodically on or reachable (such as satellites). We expect more proposals in the future!
+
+The workshop recordings are available on YouTube, the workshop papers can be found from the workshop page, and presentations held during the discussions can be found from the IETF Datatracker. An Internet-Draft with full report is under preparation, an early draft will be provided soon
+
+
 TODO Introduction
 
 # Conventions and Definitions
@@ -222,19 +240,63 @@ TODO Scope
 
 # Workshop Topics and Discussion
 
-## The Big Picture
+## The Big Picture {#session1}
 
-TBD
+The first session was about the big picture and how the Internet
+influences the rest of the society. We spoke about the goals of the
+workshop and how the IETF has approached this topic in the past. Vesna
+Manijlovic then spoke about the importance of continuous improvement:
+an incremental change every year is needed for larger savings at the
+end of the decade. Eve Schooler argued that we need to be aware of
+carbon footprint rather than pure energy consumption – carbon
+intensity of energy sources varies. We also talked about the need to
+recognize how climate changes impact different communities in the
+world, often unfairly.
 
-## Understanding the Impacts
+## Understanding the Impacts {#session2}
 
-TBD
+The second session focused on what we know and do not know, and how we
+can measure environmental impacts. Michael Welzl’s presentation
+focused on narrowing down the lower and upper limits of the energy use
+of the Internet. In the rest of the session we looked at both
+additional data collected from the operators as well as factors that –
+depending on circumstances – may drive energy consumption. These
+include for instance peak capacity and energy proportionality. If
+energy consumption is little affected by offered load, the ratio of
+peak capacity to typical usage becomes a critical factor in energy
+consumption. On the other hand, systems with energy proportionality
+scale their resource and energy consumption more dynamically based on
+offered load. The ability to shift load to reduce peak demand was
+highlighted as a potential way to delay increases in consumption when
+energy proportionality is lacking
 
-## Improvements
+## Improvements {#session3}
 
-TBD
+The third session was about potential improvements. As discussed in
+our previous blog post, there are many different types of
+improvements. In the discussion we focused mostly on protocol aspects,
+and looked at routing, multicast, and data encoding formats. Russ
+White’s presentation highlighted the need to understand the tradeoffs
+involved in changing forwarding decisions – such as increased stretch
+and jitter. Brendan Moran talked about the potentially significant
+impact of using efficiency binary formats when carrying data in
+protocols. This is something that can be relatively easily adopted in
+new protocols as they are developed. Indeed, some recently finished
+protocols such as HTTP/2 have already chosen to use this
+technique. The importance of metrics was frequently highlighted to
+ensure changes lead to a meaningful reduction in overall system carbon
+footprint.
 
-## Next Steps
+
+## Next Steps {#session4}
+
+The final fourth session was about conclusions and next steps. While
+only a few things are easy, the road ahead for making improvements
+seems clear: we need to continue to improve our understanding of the
+environmental impact, and have a continuous cycle of improvements that
+lead not just to better energy efficiency but to reduced overall
+carbon emissions. The IETF can play an important part in this process,
+but of course there are other aspects beyond protocols.
 
 # Feedback
 
