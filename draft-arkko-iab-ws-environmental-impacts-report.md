@@ -44,25 +44,25 @@ informative:
   Adams:
     title: "Extending IPv6 to support Carbon Aware Networking"
     author:
-     - ins: Chris Adams
-     - ins: Stefano Salsano
-     - ins: Hesham ElBakoury
+     - ins: C. Adams
+     - ins: S. Salsano
+     - ins: H. ElBakoury
   Anderson:
     title: "Sustainability Telemetry"
     author:
-     - ins: Per Anderson
-     - ins: Suresh Krishnan
-     - ins: Jan Lindblad
-     - ins: Snezana Mitrovic
-     - ins: Marisol Palmero
-     - ins: Esther Roure
-     - ins: Gonzalo Salgueiro
+     - ins: P. Anderson
+     - ins: S. Krishnan
+     - ins: J. Lindblad
+     - ins: S. Mitrovic
+     - ins: M. Palmero
+     - ins: E. Roure
+     - ins: G. Salgueiro
   Arkko:
     title: "Environmental Impacts of the Internet: Scope, Improvements, and Challenges"
     author:
-     - ins: Jari Arkko
-     - ins: Nina Lövehagen
-     - ins: Pernilla Bergmark
+     - ins: J. Arkko
+     - ins: N. Lövehagen
+     - ins: P. Bergmark
   Bolla:
     title: "6Green: Green Technologies for 5/6G Service- Based Architectures"
     author:
@@ -74,27 +74,27 @@ informative:
   Clemm:
     title: "Green Networking Metrics"
     author:
-     - ins: Alexander Clemm
-     - ins: Lijun Dong
-     - ins: Greg Mirsky
-     - ins: Laurent Ciavaglia
-     - ins: Jeff Tantsura
-     - ins: Marie-Paule Odini
+     - ins: A. Clemm
+     - ins: L. Dong
+     - ins: G. Mirsky
+     - ins: L. Ciavaglia
+     - ins: J. Tantsura
+     - ins: M.-P. Odini
   Clemm:
     title: "Challenges and Opportunities in Green Networking"
     author:
-     - ins: Alexander Clemm
-     - ins: Cedric Westphal
-     - ins: Jeff Tantsura
-     - ins: Laurent Ciavaglia
-     - ins: Marie-Paule Odini
+     - ins: A. Clemm
+     - ins: C. Westphal
+     - ins: J. Tantsura
+     - ins: L. Ciavaglia
+     - ins: M.-P. Odini
   Eckert:
     title: "IETF and Energy – An Overview"
     author:
-     - ins: Toerless Eckert
-     - ins: Mohamed Boucadair
-     - ins: Pascal Thubert
-     - ins: Jeff Tantsura
+     - ins: T. Eckert
+     - ins: M. Boucadair
+     - ins: P. Thubert
+     - ins: J. Tantsura
   GOS:
     title: "Tune In. Turn On. Cut Back. Finding the optimal streaming ‘default’ mode to increase energy efficiency, shift consumer expectations, and safeguard choice"
     author:
@@ -102,106 +102,106 @@ informative:
   Jacob:
     title: "Towards a power-proportional Internet"
     author:
-     - ins: Romain Jacob
+     - ins: R. Jacob
   Jansen:
     title: "Environment, internet infrastructure, and digital rights"
     author:
-     - ins: Fieke Jansen
-     - ins: Maya Richman
+     - ins: F. Jansen
+     - ins: M. Richman
   King:
     title: "On Principles for a Sustainability Stack"
     author:
-     - ins: Michael King
-     - ins: Suresh Krishnan
-     - ins: Carlos Pignataro
-     - ins: Pascal Thubert
-     - ins: Eric Voit
+     - ins: M. King
+     - ins: S. Krishnan
+     - ins: C. Pignataro
+     - ins: P. Thubert
+     - ins: E. Voit
   Krishnan:
     title: "Sustainability considerations for networking equipment"
     author:
-     - ins: Suresh Krishnan
-     - ins: Carlos Pignataro
+     - ins: S. Krishnan
+     - ins: C. Pignataro
   Manner:
     title: "Sustainability Considerations"
     author:
-     - ins: Jukka Manner
+     - ins: J. Manner
   Manojlovic:
     title: "Internet Infrastructure and Climate Justice"
     author:
-     - ins: Vesna Manojlovic
+     - ins: V. Manojlovic
   Mattera:
     title: "Understanding the Full Emissions Impact from Internet Traffic"
     author:
-     - ins: Mike Mattera
+     - ins: M. Mattera
   Mattsson:
     title: "Environmental Impact of Crypto-Assets"
     author:
-     - ins: John Preuß Mattsson
+     - ins: J. P. Mattsson
   Moran:
     title: "CBOR is Greener than JSON"
     author:
-     - ins: Brendan Moran
-     - ins: Henk Birkholz
-     - ins: Carsten Bormann
+     - ins: B. Moran
+     - ins: H. Birkholz
+     - ins: C. Bormann
   Navarre:
     title: "It is time to reconsider multicast"
     author:
-     - ins: Louis Navarre
-     - ins: Franoçis Michel
-     - ins: Olivier Bonaventure
+     - ins: L. Navarre
+     - ins: F. Michel
+     - ins: O. Bonaventure
   Nordman:
     title: "Applying Internet Architecture to Energy Systems"
     author:
-     - ins: Bruce Nordman
+     - ins: B. Nordman
   Retana:
     title: "A Framework and Requirements for Energy Aware Control Planes"
     author:
-     - ins: Alvaro Retana
-     - ins: Russ White
-     - ins: Manuel Paul
+     - ins: A. Retana
+     - ins: R. White
+     - ins: M. Paul
   Robinson:
     title: "Sea Change: Prioritizing the Environment in Internet Architecture"
     author:
-     - ins: Shayna Robinson
-     - ins: Remy Hellstern
-     - ins: Mariana Diaz
+     - ins: S. Robinson
+     - ins: R. Hellstern
+     - ins: M. Diaz
   Schien:
     title: "Rethinking Allocation in High-Baseload Systems: A Demand-Proportional Network Electricity Intensity Metric"
     author:
-     - ins: Daniel Schien
-     - ins: Paul Shabajee
-     - ins: Chris Preist
+     - ins: D. Schien
+     - ins: P. Shabajee
+     - ins: C. Preist
   Schooler:
     title: "A Perspective on Carbon-aware Networking"
     author:
-     - ins: Eve M. Schooler
-     - ins: Rick Taylor
-     - ins: Noa Zilberman
-     - ins: Robert Soulé
-     - ins: Dawn Nafus
-     - ins: Rajit Manohar
-     - ins: Uri Cummings
+     - ins: E. M. Schooler
+     - ins: R. Taylor
+     - ins: N. Zilberman
+     - ins: R. Soulé
+     - ins: D. Nafus
+     - ins: R. Manohar
+     - ins: U. Cummings
   Kostentinos:
     title: "End-to-end Energy Efficiency at Service-level in Edge Cloud"
     author:
-     - ins: Selome Kostentinos Tesfatsion
-     - ins: Xuejun Cai
-     - ins: Arif Ahmed
+     - ins: S. Tesfatsion
+     - ins: X. Cai
+     - ins: A. Ahmed
   Thubert:
     title: "Digital Twin and Automation"
     author:
-     - ins: Pascal Thubert
+     - ins: P. Thubert
   Vanderbauwhede:
     title: "Frugal Computing"
     author:
-     - ins: Wim Vanderbauwhede
+     - ins: W. Vanderbauwhede
   Welzl:
     title: "Reducing Green House Gas Emissions With Congestion Control"
     author:
-     - ins: Michael Welzl
-     - ins: Ozgu Alay
-     - ins: Peyman Teymoori
-     - ins: Safiqul Islam
+     - ins: M. Welzl
+     - ins: O. Alay
+     - ins: P. Teymoori
+     - ins: S. Islam
 
 --- abstract
 
@@ -212,11 +212,122 @@ TODO Abstract
 
 # Introduction
 
-The IAB ran an online workshop in December 2022 to begin to explore and understand the environmental impacts of the Internet. The workshop drew 26 accepted position papers. There were active discussions both in the meeting and on the workshop mailing list with altogether 75 participants. This report summarises the workshop inputs and discussions.
+The IAB ran an online workshop in December 2022 to begin to explore
+and understand the environmental impacts of the Internet.
 
-Perhaps the main overriding observation is how much there is interest and urgency on this topic, among engineers, researchers, and businesses. The workshop drew around sixty participants, with .
+The background for the workshop was that Internet communications and
+applications have both environmental costs and benefits. In the
+positive direction, they can reduce the environmental impact of our
+society, for instance, by allowing virtual interaction to replace
+physical travel. Of course, the Internet can equally well act as an
+enabler for increasing physical goods consumption, for instance,
+through easing commerce.
+
+Beyond the effects associated with its use, Internet applications do
+not come for free either. The Internet runs on systems that require
+energy and raw materials to manufacture and operate. While the
+environmental benefits of the Internet may certainly outweigh this use
+of resources in many cases, it is incumbent on the Internet industry
+to ensure that this use of resources is minimized and optimized. In
+many cases, this is already an economic necessity due to operational
+costs. And because many consumers, businesses, and civil societies
+care deeply about the environmental impact of the services and
+technologies they use, there is also a clear demand for providing
+Internet services with minimal environmental impact.
+
+The role of the workshop was to discuss the Internet’s environmental
+impact, discuss the evolving needs from industry, and to identify
+areas for improvements and future work. The main goal of the workshop
+is to call further attention to the topic and to bring together a
+diverse stakeholder community to discuss these issues.
+
+The workshop drew 26 accepted position papers. There were active
+discussions both in the meeting and on the workshop mailing list with
+altogether 75 participants. This report summarises the workshop inputs
+and discussions.
+
+Perhaps the main overriding observation is how much there is interest
+and urgency on this topic, among engineers, researchers, and
+businesses. The workshop drew around sixty participants, with .
 
 Discussion of the topics raised during the workshop will continue on a dedicated mailing list. 
+
+The workshop discussions and conclusions are covered in
+{{discussions}}. Specific workshop sessions are also available on
+YouTube, the workshop papers can be found from the workshop page, and
+presentations held during the discussions can be found from the IETF
+Datatracker.
+
+The discussion at the IETF will continue after the workshop, both
+around specific proposals as well as general discussion on a new
+mailing list. Some improvements addressing specific situations are
+being discussed at the IETF, such as the Time Variant Routing (TVR)
+proposal that can help optimize connectivity with systems that are
+periodically on or reachable (such as satellites). We expect more
+proposals in the future!
+
+# Conventions and Definitions
+
+# Scope
+
+This is a broad topic, ranging from technical questions to economics,
+business decisions, and policies. Technical, standards, and research
+communities can help ensure that we have a sufficient understanding of
+the environmental impact of the Internet and its applications. They
+can also help to design the right tools to continue to build and
+improve all aspects of the Internet, such as addressing new functional
+needs, easing of operations, improving performance and/or efficiency,
+or reducing environmental impacts in other ways.
+
+The workshop was expected to discuss:
+
+* The direct environmental impacts of the Internet, including but not
+limited to energy usage by Internet systems themselves, energy usage
+of the relevant end-user devices, resources needed for manufacturing
+the associated devices, or the environmental impacts throughout the
+lifecycle of Internet systems. Discuss the breakdown of those impacts
+across different system components and operations. Predict potential
+future trends for these impacts based on changed usage patterns and
+emerging technologies.
+
+* Discuss the indirect environmental impacts of the Internet, i.e.,
+  its effects on society overall, through enabling communications,
+  virtual services, or global commerce.
+
+* Share information about relevant measurement metrics and data, and
+  identify the need for additional metric or measurements.
+
+* Discuss the need for improvements or associated new functionality.
+
+* Share information about the societal, business, and regulatory situation, to help identify areas of opportunity.
+
+* Identify areas where further technical work would be most impactful.
+
+* Discuss specific improvement proposals.
+
+We expected that the workshop discussions connect analysis of the issues
+(e.g., scale of energy consumption or carbon footprint) to industry
+needs (e.g., deployment opportunities) and solutions.
+
+Business and societal policy questions were in scope only insofar as
+they inform the workshop participants about the context we are in, but
+what those policies should be is not for the workshop to decide or
+even extensively discuss. The scope excludds also how the technical
+community works and meets, such as the question of in-person or hybrid
+meetings.
+
+## Practical Arrangements
+
+The workshop was proposed during the May 2022 IAB retreat and a call
+for position papers went out in August 2022. Position papers were to
+be submitted by end of October (a deadline which was later extended by
+one week).
+
+The meeting itself was organized as an on-line meeting, complemented
+by email discussions and the position papers submitted by the
+participants.
+
+# Workshop Topics and Discussion {#discussions}
 
 The meeting part of the workshop was divided into four sessions:
 
@@ -224,21 +335,6 @@ The meeting part of the workshop was divided into four sessions:
 * The second session focused on what we know and do not know, and how we can measure environmental impacts (see {{session2}}).
 * The third session was about potential improvements (see {{session3}}).
 * The final fourth session was about conclusions and next steps (see {{session4}}).
-
-The discussion at the IETF will continue after the workshop, both around specific proposals as well as general discussion on a new mailing list. Some improvements addressing specific situations are being discussed at the IETF, such as the Time Variant Routing (TVR) proposal that can help optimize connectivity with systems that are periodically on or reachable (such as satellites). We expect more proposals in the future!
-
-The workshop recordings are available on YouTube, the workshop papers can be found from the workshop page, and presentations held during the discussions can be found from the IETF Datatracker. An Internet-Draft with full report is under preparation, an early draft will be provided soon
-
-
-TODO Introduction
-
-# Conventions and Definitions
-
-# Scope
-
-TODO Scope
-
-# Workshop Topics and Discussion
 
 ## The Big Picture {#session1}
 
@@ -298,7 +394,16 @@ lead not just to better energy efficiency but to reduced overall
 carbon emissions. The IETF can play an important part in this process,
 but of course there are other aspects beyond protocols.
 
-# Feedback
+# Feedback 
+
+TBD...
+
+One practical issue from the organizer's point of view was that due to
+the extension of the deadline, the final submissions and paper reviews
+collided in part with the IETF-115 meeting. This lead to it being very
+difficult for the program committee and practical organization staff
+to find time for the activity. We recommend avoiding such collisions
+in the future.
 
 # Security Considerations
 
