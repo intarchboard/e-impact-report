@@ -318,7 +318,7 @@ meetings.
 
 ## Practical Arrangements
 
-The workshop was proposed during the May 2022 IAB retreat and a call
+The IAB discussed a potential workshop in this area during its May 2022 retreat. A call
 for position papers went out in August 2022. Position papers were to
 be submitted by end of October (a deadline which was later extended by
 one week).
@@ -326,6 +326,17 @@ one week).
 The meeting itself was organized as an on-line meeting, complemented
 by email discussions and the position papers submitted by the
 participants.
+
+All in all, 75 people participated in at least one session in the
+workshop. Participation was by invitation only, based on the position
+paper submissions. However, the program committee decided that due to
+interest and differing areas of expertise, all co-authors were to be
+invited, and many did. The program committee also invited a handful of
+additional participants, where they were seen as providing valuable
+input. Similarly, as is traditional in IAB workshops, the program
+committee members, and members of the IAB and IESG were offered an
+opportunity to participate even in cases where they did not submit a
+position paper.
 
 # Workshop Topics and Discussion {#discussions}
 
