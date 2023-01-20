@@ -237,20 +237,18 @@ Internet services with minimal environmental impact.
 
 The role of the workshop was to discuss the Internet’s environmental
 impact, discuss the evolving needs from industry, and to identify
-areas for improvements and future work. The main goal of the workshop
-is to call further attention to the topic and to bring together a
-diverse stakeholder community to discuss these issues.
+areas for improvements and future work. A key goal of the workshop was
+to call further attention to the topic and to bring together a diverse
+stakeholder community to discuss these issues. This report summarises
+the workshop inputs and discussions.
 
-The workshop drew 26 accepted position papers. There were active
-discussions both in the meeting and on the workshop mailing list with
-altogether 75 participants. This report summarises the workshop inputs
-and discussions.
+The workshop drew many position paper submissions, and 26 of them were
+accepted. There were active discussions both in the meeting and on the
+workshop mailing list with altogether 75 participants. 
 
 Perhaps the main overriding observation is how much there is interest
 and urgency on this topic, among engineers, researchers, and
-businesses. The workshop drew around sixty participants, with .
-
-Discussion of the topics raised during the workshop will continue on a dedicated mailing list. 
+businesses.
 
 The workshop discussions and conclusions are covered in
 {{discussions}}. Specific workshop sessions are also available on
@@ -260,50 +258,55 @@ Datatracker.
 
 The discussion at the IETF will continue after the workshop, both
 around specific proposals as well as general discussion on a new
-mailing list. Some improvements addressing specific situations are
+mailing list, the e-impact list (e-impact@ietf.org).
+
+Some improvements addressing specific situations are
 being discussed at the IETF, such as the Time Variant Routing (TVR)
 proposal that can help optimize connectivity with systems that are
 periodically on or reachable (such as satellites). We expect more
-proposals in the future!
+proposals in the future.
 
 # Conventions and Definitions
 
 # Scope
 
-This is a broad topic, ranging from technical questions to economics,
-business decisions, and policies. Technical, standards, and research
-communities can help ensure that we have a sufficient understanding of
-the environmental impact of the Internet and its applications. They
-can also help to design the right tools to continue to build and
-improve all aspects of the Internet, such as addressing new functional
-needs, easing of operations, improving performance and/or efficiency,
-or reducing environmental impacts in other ways.
+Environmental impact assessment and improvements are broad topics,
+ranging from technical questions to economics, business decisions, and
+policies.
+
+Technical, standards, and research communities can help
+ensure that we have a sufficient understanding of the environmental
+impact of the Internet and its applications. They can also help to
+design the right tools to continue to build and improve all aspects of
+the Internet, such as addressing new functional needs, easing of
+operations, improving performance and/or efficiency, or reducing
+environmental impacts in other ways.
 
 The workshop was expected to discuss:
 
 * The direct environmental impacts of the Internet, including but not
-limited to energy usage by Internet systems themselves, energy usage
-of the relevant end-user devices, resources needed for manufacturing
-the associated devices, or the environmental impacts throughout the
-lifecycle of Internet systems. Discuss the breakdown of those impacts
-across different system components and operations. Predict potential
-future trends for these impacts based on changed usage patterns and
-emerging technologies.
+  limited to energy usage by Internet systems themselves, energy usage
+  of the relevant end-user devices, resources needed for manufacturing
+  the associated devices, or the environmental impacts throughout the
+  lifecycle of Internet systems. Discussion about the breakdown of those
+  impacts across different system components and operations. Predictions about the
+  potential future trends for these impacts based on changed usage
+  patterns and emerging technologies.
 
-* Discuss the indirect environmental impacts of the Internet, i.e.,
-  its effects on society overall, through enabling communications,
-  virtual services, or global commerce.
+* Discussion of the indirect environmental impacts of the Internet,
+  i.e., its effects on society overall, through enabling
+  communications, virtual services, or global commerce.
 
-* Share information about relevant measurement metrics and data, and
+* Sharing information about relevant measurement metrics and data, and
   identify the need for additional metric or measurements.
 
-* Discuss the need for improvements or associated new functionality.
+* Discussiong about the need for improvements or associated new functionality.
 
-* Share information about the societal, business, and regulatory situation, to help identify areas of opportunity.
+* Sharing information about the societal, business, and regulatory situation, to help identify areas of opportunity.
 
-* Identify areas where further technical work would be most impactful.
+* Identifying areas where further technical work would be most impactful.
 
-* Discuss specific improvement proposals.
+* Discussing specific improvement proposals.
 
 We expected that the workshop discussions connect analysis of the issues
 (e.g., scale of energy consumption or carbon footprint) to industry
@@ -311,17 +314,18 @@ needs (e.g., deployment opportunities) and solutions.
 
 Business and societal policy questions were in scope only insofar as
 they inform the workshop participants about the context we are in, but
-what those policies should be is not for the workshop to decide or
-even extensively discuss. The scope excludds also how the technical
+what those policies should be was not for the workshop to decide or
+even extensively discuss. The scope excluded also how the technical
 community works and meets, such as the question of in-person or hybrid
-meetings.
+meetings. (Although it should be noted that the workshop itself was
+run without physical meetings.)
 
 ## Practical Arrangements
 
-The IAB discussed a potential workshop in this area during its May 2022 retreat. A call
-for position papers went out in August 2022. Position papers were to
-be submitted by end of October (a deadline which was later extended by
-one week).
+The IAB discussed a potential workshop in this area during its May
+2022 retreat. A call for position papers went out in August
+2022. Position papers were to be submitted by end of October, a
+deadline which was later extended by one week.
 
 The meeting itself was organized as an on-line meeting, complemented
 by email discussions and the position papers submitted by the
@@ -331,12 +335,18 @@ All in all, 75 people participated in at least one session in the
 workshop. Participation was by invitation only, based on the position
 paper submissions. However, the program committee decided that due to
 interest and differing areas of expertise, all co-authors were to be
-invited, and many did. The program committee also invited a handful of
+invited, and most did. The program committee also invited a handful of
 additional participants, where they were seen as providing valuable
 input. Similarly, as is traditional in IAB workshops, the program
-committee members, and members of the IAB and IESG were offered an
+committee members and members of the IAB and IESG were offered an
 opportunity to participate even in cases where they did not submit a
 position paper.
+
+The IETF secretariat and communications staff provided practical
+support during the process, sending announcements, maintaining the
+workshop web page with position papers, setting up mailing lists,
+tracking submissions, helping with blog article submissions, and so
+on.
 
 # Workshop Topics and Discussion {#discussions}
 
@@ -350,15 +360,61 @@ The meeting part of the workshop was divided into four sessions:
 ## The Big Picture {#session1}
 
 The first session was about the big picture and how the Internet
-influences the rest of the society. We spoke about the goals of the
-workshop and how the IETF has approached this topic in the past. Vesna
-Manijlovic then spoke about the importance of continuous improvement:
-an incremental change every year is needed for larger savings at the
-end of the decade. Eve Schooler argued that we need to be aware of
-carbon footprint rather than pure energy consumption – carbon
-intensity of energy sources varies. We also talked about the need to
+influences the rest of the society. We also spoke about the goals of
+the workshop.
+
+Jari Arkko spoke about the what is overall involved in this topic
+{{Arkko}}. Toerless Eckert talked about how the IETF has approached
+this topic in the past {{Eckert}}.  Vesna Manojlovic then spoke about
+the urgency of action and the importance of continuous improvement: an
+incremental change every year is needed for larger savings at the end
+of the decade {{Manojlovic}}. She also highlighted the need to
 recognize how climate changes impact different communities in the
-world, often unfairly.
+world, often unfairly. Finally, Eve Schooler argued that we need to be
+aware of carbon footprint rather than pure energy consumption – carbon
+intensity of energy sources varies {{Schooler}}.
+
+The starting observation from this session was that the issue is much
+bigger than our technology alone.  The issue influences all parts of
+society, and even matters such as inequality, externalized costs, and
+justice. Another key observation was that improvements come in many
+forms; there is no silver bullet. The opportunity to bring together
+people with different backgrounds helped us see how we approach the
+topic from different angles - none of them wrong, but also none of the
+sole angle to focus on either. The problems are hard enough that multiple
+types of efforts are needed for major improvements.
+
+Some of the useful tools for approaching the issue included of course technical 
+solutions, but also solidarity, aiming for sufficiency, and awareness. It is important
+to not stand still waiting for the perfect solution. Renewable energy and carbon awareness were seen as a part
+of the solution, but not, however, sufficient by themselves.
+
+Some of the goals for the IETF should include:
+
+* Connecting IETF with others. Given that the issue is broad, it is
+  difficult for one standards organisation to take significant
+  actions. Working with in collaboration others, and understanding the
+  situation beyond the strictest definition of Internet technology
+  will be needed.
+
+* Continuous improvement. As argued by Vesna Manojlovic, it is
+  important that the IETF (among others) sets itself on a continuous
+  improvement cycle. No single improvement will change the overall
+  situation sufficiently, but over a longer period of time, even
+  smaller changes every year will result in larger improvements.
+
+* Finding the right targets for work in the Internet, and perhaps not
+  solely defined by larger speeds or bigger capacity, but rather
+  increased usefulness to society and declining emissions from ICT.
+
+* Specifying what research needs to be done, i.e., where additional
+  knowledge would allow us to find better improvements. For instance,
+  not enough is known about effects beyond energy, such as natural
+  resources used for manufacturing, or the use of
+  water. Carbon-awareness and measurements across domains is also
+  poorly understood today. And business model impacts -- such as the
+  role of advertising on Internet's carbon footprint -- deserve more
+  stody.
 
 ## Understanding the Impacts {#session2}
 
