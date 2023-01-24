@@ -300,13 +300,17 @@ The workshop was expected to discuss:
 * Sharing information about relevant measurement metrics and data, and
   identify the need for additional metric or measurements.
 
-* Discussiong about the need for improvements or associated new functionality.
+* Discussing about the need for improvements or associated new functionality.
 
 * Sharing information about the societal, business, and regulatory situation, to help identify areas of opportunity.
 
 * Identifying areas where further technical work would be most impactful.
 
 * Discussing specific improvement proposals.
+
+* Discussion of past work in the IETF, IRTF and IAB in this area and the status of such work.
+
+* Discussion of observed user behaviors as they relate to environmental impacts.
 
 We expected that the workshop discussions connect analysis of the issues
 (e.g., scale of energy consumption or carbon footprint) to industry
@@ -327,7 +331,7 @@ The IAB discussed a potential workshop in this area during its May
 2022. Position papers were to be submitted by end of October, a
 deadline which was later extended by one week.
 
-The meeting itself was organized as an on-line meeting, complemented
+The meeting itself was organized as an on-line meeting, with four half-day long sessions complemented
 by email discussions and the position papers submitted by the
 participants.
 
@@ -335,7 +339,7 @@ All in all, 75 people participated in at least one session in the
 workshop. Participation was by invitation only, based on the position
 paper submissions. However, the program committee decided that due to
 interest and differing areas of expertise, all co-authors were to be
-invited, and most did. The program committee also invited a handful of
+invited, and most of them did attend. The program committee also invited a handful of
 additional participants, where they were seen as providing valuable
 input. Similarly, as is traditional in IAB workshops, the program
 committee members and members of the IAB and IESG were offered an
@@ -421,7 +425,22 @@ Some of the goals for the IETF should include:
 The second session focused on what we know and do not know, and how we
 can measure environmental impacts. Michael Welzl’s presentation
 focused on narrowing down the lower and upper limits of the energy use
-of the Internet. In the rest of the session we looked at both
+of the Internet. There was also discussion regarding the energy consumption 
+of the ICT sector and how it compares to some other selected industries 
+such as aviation. Dwelling deeper into the energy consumption and the carbon
+footprint of the ICT sector there was discussion regarding how the impact 
+was split amongst the networks, datacenters and user devices (with the user
+devices appearing to contribute to the largest fraction of the impact). 
+
+There were also further discussions both during the presentations and in
+the hallway chats regarding the press and media coverage of the potential 
+environment technologies. The overall sense of the participants seemed to 
+be that there was a lot of sensational headlines but they were not really
+backed by measurements done by the industry and academia and were fraught 
+with errors. Some of these media reports were off by quite a bit, sometimes
+even by an order of magnitude (e.g. mixing up MBps vs Mbps in calculations). 
+
+In the rest of the session we looked at both
 additional data collected from the operators as well as factors that –
 depending on circumstances – may drive energy consumption. These
 include for instance peak capacity and energy proportionality. If
@@ -429,17 +448,44 @@ energy consumption is little affected by offered load, the ratio of
 peak capacity to typical usage becomes a critical factor in energy
 consumption. On the other hand, systems with energy proportionality
 scale their resource and energy consumption more dynamically based on
-offered load. The ability to shift load to reduce peak demand was
-highlighted as a potential way to delay increases in consumption when
-energy proportionality is lacking
+offered load. There were also observations that showed that the energy 
+consumption at grew as a step function when the peak capacity was 
+reached (even instantaneously) and additional capacity was built up
+by performing network upgrades to handle these new peaks. This resulted
+in a overall higher baseline energy consumption even when the average 
+demand did not change that much. Thus, the ability to shift load to 
+reduce peak demand was highlighted as a potential way to delay increases 
+in consumption when energy proportionality is lacking.
+
 
 ## Improvements {#session3}
 
 The third session was about potential improvements. As discussed in
 our previous blog post, there are many different types of
 improvements. In the discussion we focused mostly on protocol aspects,
-and looked at routing, multicast, and data encoding formats. Russ
-White’s presentation highlighted the need to understand the tradeoffs
+and looked at metrics, telemetry, routing, multicast, and data encoding 
+formats.
+
+The initial two presentations focused on metrics and telemetry with the 
+premise that visibility is a very important first step (paraphrasing 
+Peter Drucker's mantra of "You cannot improve what you don't measure").
+There was a discussion of the scopes of emissions and it seemed that 
+Scope 3 emissions were much larger in size when compared to Scope 1/2
+emissions when seen from the networking vendor point of view. Thus it
+seemed important that the networking vendors had to put in effort into
+helping their customers measure and mitigate their environmental impact
+as well. The need for standardized metrics was very clear as it helps avoid
+proprietary, redundant and even contradictory metrics across vendors.
+
+The initial and the near-term focus was related to metrics and techniques
+related to energy consumption of the networking devices themselves while
+the longer term focus can go into topics much further removed from the IETF
+such as packaging, circular design in order to form a more holistic picture.
+The overall feeling was that the topic of metrics, telemetry, and management
+are quite specific and could be targets to be worked in the IETF in the near
+term.
+
+Russ White’s presentation highlighted the need to understand the tradeoffs
 involved in changing forwarding decisions – such as increased stretch
 and jitter. Brendan Moran talked about the potentially significant
 impact of using efficiency binary formats when carrying data in
@@ -448,7 +494,17 @@ new protocols as they are developed. Indeed, some recently finished
 protocols such as HTTP/2 have already chosen to use this
 technique. The importance of metrics was frequently highlighted to
 ensure changes lead to a meaningful reduction in overall system carbon
-footprint.
+footprint. There were also some interesting discussions regarding the
+use of multicast and whether it would help or hurt on the energy 
+efficiency of communications. There were some studies and simulations 
+that showed the potential gains to be had but were to be balanced against
+some of the well known barriers to deployment of multicast. We also heard
+from a leading CDN operator regarding their views on multicast and how it
+relates to media usage and consumption models. The hallway conversations
+also talked about the potential negative effects of multicast in wireless
+and constrained networks.Overall the conclusion was that the use of 
+multicast can potentially provide some savings but only in some specific 
+scenarios.
 
 
 ## Next Steps {#session4}
