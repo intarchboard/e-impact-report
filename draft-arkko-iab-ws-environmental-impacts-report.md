@@ -563,13 +563,132 @@ scenarios.
 
 ## Next Steps {#session4}
 
-The final fourth session was about conclusions and next steps. While
-only a few things are easy, the road ahead for making improvements
-seems clear: we need to continue to improve our understanding of the
-environmental impact, and have a continuous cycle of improvements that
-lead not just to better energy efficiency but to reduced overall
-carbon emissions. The IETF can play an important part in this process,
-but of course there are other aspects beyond protocols.
+The final fourth session was about conclusions and next steps. This
+section highlights some of these conclusions.
+
+### Overall strategy
+
+While only a few things are easy, the road ahead for making
+improvements seems clear: we need to continue to improve our
+understanding of the environmental impact, and have a continuous cycle
+of improvements that lead not just to better energy efficiency but to
+reduced overall carbon emissions. The IETF can play an important part
+in this process, but of course there are other aspects beyond
+protocols.
+
+On understanding our environmental impact the first step is better
+awareness of sustainability issues in general, which helps us
+understand better where our issues are. The second step is willigness
+to understand in detail what the causes and relationships within our
+issues. What parts, components, or behaviours in the network cause
+what kinds of impacts? An overall drive in the society to report and improve
+environmental impacts can be helpful in creating a willingness to get
+to this information.
+
+On establishing a continuous cycle of improvements, the ability to
+understand where we are, making improvements, and then seeing the
+impact of those improvements is of course central. But obviously a key
+question is what are the potential improvements, and how can we
+accelerate them? It should be noted that quick, large changes are not
+likely. But a continuous stream of smaller changes can create a large
+impact over a longer period of time.
+
+### Improvements
+
+In looking at potential improvements, it is essential that the
+associated tradeoffs can be understood, and that the role of the
+Internet in improving other areas of society is not diminished. For
+instance, discussion in session three revealed how some changes might
+impact latency and jitter. Given that these characteristics are an
+important factor how virtual meetings are perceived by potential
+participants, it is important that the performance of networks
+satisfies these participants at a level where there's willingness to
+use them over other potentially more environmentally harmful methods,
+such as travel.
+
+Note that while virtual meetings are a common example, important to
+consider different use cases, some of which may not be as obvious to
+us human users as meetings are. Improvements may bring different or
+even larger impacts in other situations, e.g., Internet connected
+electronics might benefit from different characteristics than human
+users, e.g., with regards to support for intermittent connectivity.
+
+The relationships between different system components and the impact
+of various detailed design choices in network is not always
+apparent. A local change in one node may have an impact in other
+nodes. When considering environmental sustainability, in most cases
+the overall system impact is what counts more than local impacts. Of
+course, other factors, such as device battery life and availability of
+power may result in other preferences, such as optimising for low
+power usage of end-user devices, even at the cost of increases
+elsewhere.
+
+In terms of useful tools for building improvements, the following were
+highlighted in discussions:
+
+* Masures beyond protocol design, such as implementations or renewable
+  energy use. Not everything is about protocols.
+  
+* Metrics, measurements & data are very beneficial. Carbon-aware
+  metrics would in particular be very useful. All additional
+  information makes us more aware of what the environmental impacts
+  are, but also enables optimization, AI-based adjustments, or
+  carbon-directed computing and networking tools, and so on.
+
+* It would be beneficial to be able to provide various systems a more
+  dynamic ability to slow down & sleep.  Awareness of energy
+  availability and type would also allow us to employ time and place
+  shifting for reducing carbon impacts.
+
+* When we design systems, paying attention to the used data formats
+  may pay off significantly, as argued in {{Moran}}.
+
+* Possibly there’s a new opportunity for deploying multicast as well {{Navarre}}.
+ 
+* Designing systems for energy constrained situations may actually
+  make the resulting systems work well in several environments.
+
+### Actions
+
+The workshop discussed a number of possible actions. These actions are
+not about how to take specific technical solutions forward, but rather
+about how to discuss the topic going forward or what technical areas
+to focus on:
+
+* We need to continue the discussion – not all questions are
+   answered. Additional discussion within the IETF will be needed. 
+   Continuing to connnect the IETF with others in society & other SDOs
+   around this topic is also useful.
+
+* It is useful to find a role and a scope for IETF work in this
+  area. IETF will not develop alternative energy sources, work on
+  social issues or have detailed discussions about implenentation
+  strategies or electronics design. However, IETF has a role in
+  measurement mechanisms, protocol design and standards -- but of
+  course activities in this role need to be aware of other aspects,
+  such as implementation strategies.
+
+* There are IETF activities on specific technologies are already
+   ongoing/starting, such as metrics, or the new Time Variant Routing
+   (TVR) working group. It may be ueful to start from picking the
+   low-hanging fruits, such as focusing on the use of efficient data
+   formats, avoiding crypto assets, and being able to carry
+   information that needs to be shared for the purposes of enabling
+   load and time shifting.
+
+* Help initiate research activities that address some of the issues,
+  such as broader gathering and sharing of measurement data, analysis
+  of this data and looking business related issues such as the impact
+  of peering or advertising impacts sustainability.  In addition,
+  there may be need to look at research for specific areas of
+  improvements that are promising but not ready for standards
+  discussion.
+
+In summary, the goals that the IETF should have include:
+
+* Full understanding of Internet’s environmental impact
+* Continuous improvement of our technology.
+* Launching research relevant activities.
 
 # Feedback 
 
@@ -603,8 +722,6 @@ is shared.
 
 This document has no IANA actions.
 
-
---- back
 
 # Position Papers
 
@@ -655,6 +772,8 @@ The program committee members were:
 * Rick Taylor, Ori Industries
 
 # Workshop Participants
+
+The participants who attended at least one of the four sessions were:
 
 * Alex Clemm
 * Ali Rezaki
@@ -731,6 +850,8 @@ The program committee members were:
 * Vesna Manojlovic
 * Wim Vanderbauwhede
 * heb
+
+--- back
 
 # IAB Members at the Time of Approval
 
