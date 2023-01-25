@@ -47,6 +47,8 @@ informative:
      - ins: C. Adams
      - ins: S. Salsano
      - ins: H. ElBakoury
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Anderson:
     title: "Sustainability Telemetry"
     author:
@@ -57,12 +59,16 @@ informative:
      - ins: M. Palmero
      - ins: E. Roure
      - ins: G. Salgueiro
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Arkko:
     title: "Environmental Impacts of the Internet: Scope, Improvements, and Challenges"
     author:
      - ins: J. Arkko
      - ins: N. Lövehagen
      - ins: P. Bergmark
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Bolla:
     title: "6Green: Green Technologies for 5/6G Service- Based Architectures"
     author:
@@ -71,6 +77,8 @@ informative:
      - ins: F. Davoli
      - ins: C. Lombardo
      - ins: Beatrice Siccardi
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Clemm:
     title: "Green Networking Metrics"
     author:
@@ -80,6 +88,8 @@ informative:
      - ins: L. Ciavaglia
      - ins: J. Tantsura
      - ins: M.-P. Odini
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Clemm:
     title: "Challenges and Opportunities in Green Networking"
     author:
@@ -88,6 +98,8 @@ informative:
      - ins: J. Tantsura
      - ins: L. Ciavaglia
      - ins: M.-P. Odini
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Eckert:
     title: "IETF and Energy – An Overview"
     author:
@@ -95,19 +107,27 @@ informative:
      - ins: M. Boucadair
      - ins: P. Thubert
      - ins: J. Tantsura
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   GOS:
     title: "Tune In. Turn On. Cut Back. Finding the optimal streaming ‘default’ mode to increase energy efficiency, shift consumer expectations, and safeguard choice"
     author:
      - ins: Greening of Streaming
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Jacob:
     title: "Towards a power-proportional Internet"
     author:
      - ins: R. Jacob
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Jansen:
     title: "Environment, internet infrastructure, and digital rights"
     author:
      - ins: F. Jansen
      - ins: M. Richman
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   King:
     title: "On Principles for a Sustainability Stack"
     author:
@@ -116,61 +136,85 @@ informative:
      - ins: C. Pignataro
      - ins: P. Thubert
      - ins: E. Voit
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Krishnan:
     title: "Sustainability considerations for networking equipment"
     author:
      - ins: S. Krishnan
      - ins: C. Pignataro
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Manner:
     title: "Sustainability Considerations"
     author:
      - ins: J. Manner
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Manojlovic:
     title: "Internet Infrastructure and Climate Justice"
     author:
      - ins: V. Manojlovic
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Mattera:
     title: "Understanding the Full Emissions Impact from Internet Traffic"
     author:
      - ins: M. Mattera
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Mattsson:
     title: "Environmental Impact of Crypto-Assets"
     author:
      - ins: J. P. Mattsson
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Moran:
     title: "CBOR is Greener than JSON"
     author:
      - ins: B. Moran
      - ins: H. Birkholz
      - ins: C. Bormann
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Navarre:
     title: "It is time to reconsider multicast"
     author:
      - ins: L. Navarre
      - ins: F. Michel
      - ins: O. Bonaventure
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Nordman:
     title: "Applying Internet Architecture to Energy Systems"
     author:
      - ins: B. Nordman
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Retana:
     title: "A Framework and Requirements for Energy Aware Control Planes"
     author:
      - ins: A. Retana
      - ins: R. White
      - ins: M. Paul
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Robinson:
     title: "Sea Change: Prioritizing the Environment in Internet Architecture"
     author:
      - ins: S. Robinson
      - ins: R. Hellstern
      - ins: M. Diaz
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Schien:
     title: "Rethinking Allocation in High-Baseload Systems: A Demand-Proportional Network Electricity Intensity Metric"
     author:
      - ins: D. Schien
      - ins: P. Shabajee
      - ins: C. Preist
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Schooler:
     title: "A Perspective on Carbon-aware Networking"
     author:
@@ -181,20 +225,28 @@ informative:
      - ins: D. Nafus
      - ins: R. Manohar
      - ins: U. Cummings
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Kostentinos:
     title: "End-to-end Energy Efficiency at Service-level in Edge Cloud"
     author:
      - ins: S. Tesfatsion
      - ins: X. Cai
      - ins: A. Ahmed
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Thubert:
     title: "Digital Twin and Automation"
     author:
      - ins: P. Thubert
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Vanderbauwhede:
     title: "Frugal Computing"
     author:
      - ins: W. Vanderbauwhede
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Welzl:
     title: "Reducing Green House Gas Emissions With Congestion Control"
     author:
@@ -202,6 +254,8 @@ informative:
      - ins: O. Alay
      - ins: P. Teymoori
      - ins: S. Islam
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
 
 --- abstract
 

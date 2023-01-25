@@ -18,11 +18,12 @@ VERSOPT=
 preconditions:
 	scp $(SCPPORT) -rp lib $(MACHINE):/tmp
 
-oldcompile actually-working-compile-without-v3-garbage: draft-arkko-iab-ws-environmental-impacts-report.md
+compile actually-working-compile-without-v3-garbage: draft-arkko-iab-ws-environmental-impacts-report.md
 	-@ssh $(PORT) $(MACHINE) 'cd /tmp; rm *.txt *.md *.xml'
 	scp $(SCPPORT) draft-arkko-iab-ws-environmental-impacts-report.md $(MACHINE):/tmp
 	ssh $(PORT) $(MACHINE) 'cd /tmp; cat draft-arkko-iab-ws-environmental-impacts-report.md  | kramdown-rfc2629 | lib/add-note.py > draft-arkko-iab-ws-environmental-impacts-report-pre.xml'
 	ssh $(PORT) $(MACHINE) 'cd /tmp; xml2rfc -q --cache=/home/jar/.cache/xml2rfc $(VERSOPT) draft-arkko-iab-ws-environmental-impacts-report-pre.xml -o draft-arkko-iab-ws-environmental-impacts-report.txt'
+	ssh $(PORT) $(MACHINE) 'cd /tmp; sed "s/ , /, /g" draft-arkko-iab-ws-environmental-impacts-report.txt > temp.txt; rm -f draft-arkko-iab-ws-environmental-impacts-report.txt; mv -i temp.txt draft-arkko-iab-ws-environmental-impacts-report.txt'
 	scp $(SCPPORT) $(MACHINE):/tmp/draft-arkko-iab-ws-environmental-impacts-report.txt .
 	scp $(SCPPORT) $(MACHINE):/tmp/draft-arkko-iab-ws-environmental-impacts-report.txt \
 		.
