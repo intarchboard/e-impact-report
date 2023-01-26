@@ -329,8 +329,6 @@ proposal that can help optimize connectivity with systems that are
 periodically on or reachable (such as satellites). We expect more
 proposals in the future.
 
-# Conventions and Definitions
-
 # Scope
 
 Environmental impact assessment and improvements are broad topics,
@@ -385,7 +383,7 @@ what those policies should be was not for the workshop to decide or
 even extensively discuss. The scope excluded also how the technical
 community works and meets, such as the question of in-person or hybrid
 meetings. (Although it should be noted that the workshop itself was
-run without physical meetings.)
+run as an on-line meeting.)
 
 ## Practical Arrangements
 
@@ -394,16 +392,18 @@ The IAB discussed a potential workshop in this area during its May
 2022. Position papers were to be submitted by end of October, a
 deadline which was later extended by one week.
 
-The meeting itself was organized as an on-line meeting, with four half-day long sessions complemented
-by email discussions and the position papers submitted by the
-participants.
+As noted, the workshop itself was run as an on-line meeting, with four
+half-day long sessions complemented by email discussions and the
+position papers submitted by the participants.
 
 All in all, 75 people participated in at least one session in the
 workshop. Participation was by invitation only, based on the position
-paper submissions. However, the program committee decided that due to
-interest and differing areas of expertise, all co-authors were to be
-invited, and most of them did attend. The program committee also invited a handful of
-additional participants, where they were seen as providing valuable
+paper submissions.
+
+The program committee decided that due to interest and differing areas
+of expertise, all co-authors were to be invited, and most of them did
+attend. The program committee also invited a handful of additional
+participants, where they were seen as providing valuable
 input. Similarly, as is traditional in IAB workshops, the program
 committee members and members of the IAB and IESG were offered an
 opportunity to participate even in cases where they did not submit a
@@ -419,14 +419,15 @@ on.
 
 The meeting part of the workshop was divided into four sessions:
 
-* The first session was about the big picture and how the Internet influences the rest of the society (see {{session1}}).
+* The first session was about the big picture and relationships
+  between different aspects of sustainability (see {{session1}}).
 * The second session focused on what we know and do not know, and how we can measure environmental impacts (see {{session2}}).
 * The third session was about potential improvements (see {{session3}}).
 * The final fourth session was about conclusions and next steps (see {{session4}}).
 
 ## The Big Picture {#session1}
 
-The first session was about the big picture and how the Internet
+This session was about the big picture and how the Internet
 influences the rest of the society. We also spoke about the goals of
 the workshop.
 
@@ -443,25 +444,26 @@ intensity of energy sources varies {{Schooler}}.
 
 The starting observation from this session was that the issue is much
 bigger than our technology alone.  The issue influences all parts of
-society, and even matters such as inequality, externalized costs, and
-justice. Another key observation was that improvements come in many
-forms; there is no silver bullet. The opportunity to bring together
-people with different backgrounds helped us see how we approach the
-topic from different angles - none of them wrong, but also none of the
-sole angle to focus on either. The problems are hard enough that multiple
-types of efforts are needed for major improvements.
+society, and even matters such as (in)equality, externalized costs,
+and justice. Another key observation was that improvements come in
+many forms; there is no silver bullet. The opportunity to bring
+together people with different backgrounds helped us see how we
+approach the topic from different angles - none of them wrong, but
+also none of the sole angle to focus on either. Only the combined
+effects of complementary efforts can provide the required level of changes.
 
-Some of the useful tools for approaching the issue included of course technical 
-solutions, but also solidarity, aiming for sufficiency, and awareness. It is important
-to not stand still waiting for the perfect solution. Renewable energy and carbon awareness were seen as a part
-of the solution, but not, however, sufficient by themselves.
+Some of the useful tools for approaching the issue included of course
+technical solutions, but also solidarity, aiming for sufficiency, and
+awareness. It is important to not stand still waiting for the perfect
+solution. Renewable energy and carbon awareness were seen as a part of
+the solution, but not, however, sufficient by themselves.
 
 Some of the goals for the IETF should include:
 
 * Connecting IETF with others. Given that the issue is broad, it is
   difficult for one standards organisation to take significant
-  actions. Working with in collaboration others, and understanding the
-  situation beyond the strictest definition of Internet technology
+  actions. Working in collaboration others is necessary.
+  And understanding the situation beyond technology
   will be needed.
 
 * Continuous improvement. As argued by Vesna Manojlovic, it is
@@ -476,24 +478,27 @@ Some of the goals for the IETF should include:
 
 * Specifying what research needs to be done, i.e., where additional
   knowledge would allow us to find better improvements. For instance,
-  not enough is known about effects beyond energy, such as natural
-  resources used for manufacturing, or the use of
+  not enough is known about environmental impacts beyond energy, such
+  as natural resources used for manufacturing, or the use of
   water. Carbon-awareness and measurements across domains is also
   poorly understood today. And business model impacts -- such as the
   role of advertising on Internet's carbon footprint -- deserve more
-  stody.
+  study.
 
 ## Understanding the Impacts {#session2}
 
 The second session focused on what we know and do not know, and how we
-can measure environmental impacts. Michael Welzl’s presentation
-focused on narrowing down the lower and upper limits of the energy use
-of the Internet. There was also discussion regarding the energy consumption 
-of the ICT sector and how it compares to some other selected industries 
-such as aviation. Dwelling deeper into the energy consumption and the carbon
-footprint of the ICT sector there was discussion regarding how the impact 
-was split amongst the networks, datacenters and user devices (with the user
-devices appearing to contribute to the largest fraction of the impact). 
+can measure environmental impacts.
+
+The initial presentation from Michael Welzl focused on narrowing down
+the lower and upper limits of the energy use of the Internet. There
+was also discussion regarding the energy consumption of the ICT sector
+and how it compares to some other selected industries such as
+aviation. Dwelling deeper into the energy consumption and the carbon
+footprint of the ICT sector there was discussion regarding how the
+impact was split amongst the networks, datacenters and user devices
+(with the user devices appearing to contribute to the largest fraction
+of the impact).
 
 There were also further discussions both during the presentations and in
 the hallway chats regarding the press and media coverage of the potential 
@@ -523,11 +528,11 @@ in consumption when energy proportionality is lacking.
 
 ## Improvements {#session3}
 
-The third session was about potential improvements. As discussed in
-our previous blog post, there are many different types of
-improvements. In the discussion we focused mostly on protocol aspects,
-and looked at metrics, telemetry, routing, multicast, and data encoding 
-formats.
+The third session was about potential improvements. 
+
+As noted earlier, there are many different types of improvements. In
+the discussion we focused mostly on protocol aspects, and looked at
+metrics, telemetry, routing, multicast, and data encoding formats.
 
 The initial two presentations focused on metrics and telemetry with the 
 premise that visibility is a very important first step (paraphrasing 
@@ -539,6 +544,8 @@ seemed important that the networking vendors had to put in effort into
 helping their customers measure and mitigate their environmental impact
 as well. The need for standardized metrics was very clear as it helps avoid
 proprietary, redundant and even contradictory metrics across vendors.
+
+TODO add definition of Scope 1 through or reword.
 
 The initial and the near-term focus was related to metrics and techniques
 related to energy consumption of the networking devices themselves while
@@ -568,7 +575,6 @@ also talked about the potential negative effects of multicast in wireless
 and constrained networks.Overall the conclusion was that the use of 
 multicast can potentially provide some savings but only in some specific 
 scenarios.
-
 
 ## Next Steps {#session4}
 
@@ -795,7 +801,6 @@ The participants who attended at least one of the four sessions were:
 * Cedric Westphal
 * Chiara Lombardo
 * Chris Adams
-* Cindy Morgan
 * Colin Perkins
 * Daniel Schien
 * Dawn Nafus
@@ -880,4 +885,5 @@ The participants who attended at least one of the four sessions were:
 
 # Acknowledgments
 
-TODO acknowledge.
+The organizers wish to thank Cindy Morgan and Greg Wood for their work on the
+practical arrangements and communications relating to he workshop.
