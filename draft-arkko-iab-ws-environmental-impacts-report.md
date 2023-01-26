@@ -259,15 +259,24 @@ informative:
 
 --- abstract
 
-TODO Abstract
+Internet communications and applications have both environmental costs
+and benefits.  The IAB ran an online workshop in December 2022 on
+exploring and understanding these impacts.
 
+The role of the workshop was to discuss the impacts, discuss the
+evolving needs from industry, and to identify areas for improvements
+and future work. A key goal of the workshop was to call further
+attention to the topic and to bring together a diverse stakeholder
+community to discuss these issues.
+
+This report summarises the workshop inputs and discussions.
 
 --- middle
 
 # Introduction
 
-The IAB ran an online workshop in December 2022 to begin to explore
-and understand the environmental impacts of the Internet.
+The IAB ran an online workshop in December 2022 on exploring
+and understanding the environmental impacts of the Internet.
 
 The background for the workshop was that Internet communications and
 applications have both environmental costs and benefits. In the
