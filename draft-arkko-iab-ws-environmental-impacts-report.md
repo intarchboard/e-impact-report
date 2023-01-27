@@ -307,7 +307,7 @@ the workshop inputs and discussions.
 
 The workshop drew many position paper submissions, and 26 of them were
 accepted. There were active discussions both in the meeting and on the
-workshop mailing list with altogether 75 participants. 
+workshop mailing list with altogether 73 participants. 
 
 Perhaps the main overriding observation is how much there is interest
 and urgency on this topic, among engineers, researchers, and
@@ -396,7 +396,7 @@ As noted, the workshop itself was run as an on-line meeting, with four
 half-day long sessions complemented by email discussions and the
 position papers submitted by the participants.
 
-All in all, 75 people participated in at least one session in the
+All in all, 73 people participated in at least one session in the
 workshop. Participation was by invitation only, based on the position
 paper submissions.
 
@@ -863,7 +863,6 @@ The participants who attended at least one of the four sessions were:
 * Uri Cummings
 * Vesna Manojlovic
 * Wim Vanderbauwhede
-* heb
 
 --- back
 
