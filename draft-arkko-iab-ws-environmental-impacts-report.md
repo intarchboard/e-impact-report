@@ -440,7 +440,7 @@ incremental change every year is needed for larger savings at the end
 of the decade {{Manojlovic}}. She also highlighted the need to
 recognize how climate changes impact different communities in the
 world, often unfairly. Finally, Eve Schooler argued that we need to be
-aware of carbon footprint rather than pure energy consumption – carbon
+aware of carbon footprint rather than pure energy consumption - carbon
 intensity of energy sources varies {{Schooler}}.
 
 The starting observation from this session was that the issue is much
@@ -497,21 +497,21 @@ was also discussion regarding the energy consumption of the ICT sector
 and how it compares to some other selected industries such as
 aviation. Dwelling deeper into the energy consumption and the carbon
 footprint of the ICT sector there was discussion regarding how the
-impact was split amongst the networks, datacenters and user devices
+impact was split amongst the networks, data centres and user devices
 (with the user devices appearing to contribute to the largest fraction
 of the impact).
 
 There were also further discussions both during the presentations and in
 the hallway chats regarding the press and media coverage of the potential
 environment technologies. The overall sense of the participants seemed to
-be that there was a lot of sensational headlines but they were not really
-backed by measurements done by the industry and academia and were fraught
+be that there was a lot of sensational headlines, but they were not really
+backed by measurements done by the industry and academia, and were fraught
 with errors. Some of these media reports were off by quite a bit, sometimes
-even by an order of magnitude (e.g. mixing up MBps vs Mbps in calculations).
+even by an order of magnitude (e.g., confusing MBps vs Mbps in calculations).
 
 In the rest of the session we looked at both
-additional data collected from the operators as well as factors that –
-depending on circumstances – may drive energy consumption. These
+additional data collected from the operators as well as factors that -
+depending on circumstances - may drive energy consumption. These
 include for instance peak capacity and energy proportionality. If
 energy consumption is little affected by offered load, the ratio of
 peak capacity to typical usage becomes a critical factor in energy
@@ -556,8 +556,8 @@ The overall feeling was that the topic of metrics, telemetry, and management
 are quite specific and could be targets to be worked in the IETF in the near
 term.
 
-Russ White’s presentation highlighted the need to understand the tradeoffs
-involved in changing forwarding decisions – such as increased stretch
+Russ White's presentation highlighted the need to understand the trade-offs
+involved in changing forwarding decisions - such as increased stretch
 and jitter. Brendan Moran talked about the potentially significant
 impact of using efficiency binary formats when carrying data in
 protocols. This is something that can be relatively easily adopted in
@@ -645,14 +645,14 @@ highlighted in discussions:
 * Masures beyond protocol design, such as implementations or renewable
   energy use. Not everything is about protocols.
 
-* Metrics, measurements & data are very beneficial. Carbon-aware
+* Metrics, measurements, and data are very beneficial. Carbon-aware
   metrics would in particular be very useful. All additional
   information makes us more aware of what the environmental impacts
   are, but also enables optimization, AI-based adjustments, or
   carbon-directed computing and networking tools, and so on.
 
 * It would be beneficial to be able to provide various systems a more
-  dynamic ability to slow down & sleep.  Awareness of energy
+  dynamic ability to slow down and sleep.  Awareness of energy
   availability and type would also allow us to employ time and place
   shifting for reducing carbon impacts.
 
@@ -673,12 +673,12 @@ to focus on:
 
 * We need to continue the discussion – not all questions are
    answered. Additional discussion within the IETF will be needed.
-   Continuing to connnect the IETF with others in society & other SDOs
+   Continuing to connect the IETF with others in society and other SDOs
    around this topic is also useful.
 
 * It is useful to find a role and a scope for IETF work in this
   area. IETF will not develop alternative energy sources, work on
-  social issues or have detailed discussions about implenentation
+  social issues or have detailed discussions about implementation
   strategies or electronics design. However, IETF has a role in
   measurement mechanisms, protocol design and standards -- but of
   course activities in this role need to be aware of other aspects,
@@ -686,7 +686,7 @@ to focus on:
 
 * There are IETF activities on specific technologies are already
    ongoing/starting, such as metrics, or the new Time Variant Routing
-   (TVR) working group. It may be ueful to start from picking the
+   (TVR) working group. It may be useful to start from picking the
    low-hanging fruits, such as focusing on the use of efficient data
    formats, avoiding crypto assets, and being able to carry
    information that needs to be shared for the purposes of enabling
