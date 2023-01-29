@@ -28,7 +28,7 @@ author:
     organization: Ericsson
     email: jari.arkko@ericsson.com
  -
-    ins: C. Perkins
+    ins: C. S. Perkins
     fullname: Colin Perkins
     organization: University of Glasgow
     email: csp@csperkins.org
@@ -307,7 +307,7 @@ the workshop inputs and discussions.
 
 The workshop drew many position paper submissions, and 26 of them were
 accepted. There were active discussions both in the meeting and on the
-workshop mailing list with altogether 73 participants. 
+workshop mailing list with altogether 73 participants.
 
 Perhaps the main overriding observation is how much there is interest
 and urgency on this topic, among engineers, researchers, and
@@ -501,12 +501,12 @@ impact was split amongst the networks, datacenters and user devices
 of the impact).
 
 There were also further discussions both during the presentations and in
-the hallway chats regarding the press and media coverage of the potential 
-environment technologies. The overall sense of the participants seemed to 
+the hallway chats regarding the press and media coverage of the potential
+environment technologies. The overall sense of the participants seemed to
 be that there was a lot of sensational headlines but they were not really
-backed by measurements done by the industry and academia and were fraught 
+backed by measurements done by the industry and academia and were fraught
 with errors. Some of these media reports were off by quite a bit, sometimes
-even by an order of magnitude (e.g. mixing up MBps vs Mbps in calculations). 
+even by an order of magnitude (e.g. mixing up MBps vs Mbps in calculations).
 
 In the rest of the session we looked at both
 additional data collected from the operators as well as factors that –
@@ -516,28 +516,28 @@ energy consumption is little affected by offered load, the ratio of
 peak capacity to typical usage becomes a critical factor in energy
 consumption. On the other hand, systems with energy proportionality
 scale their resource and energy consumption more dynamically based on
-offered load. There were also observations that showed that the energy 
-consumption at grew as a step function when the peak capacity was 
+offered load. There were also observations that showed that the energy
+consumption at grew as a step function when the peak capacity was
 reached (even instantaneously) and additional capacity was built up
 by performing network upgrades to handle these new peaks. This resulted
-in a overall higher baseline energy consumption even when the average 
-demand did not change that much. Thus, the ability to shift load to 
-reduce peak demand was highlighted as a potential way to delay increases 
+in a overall higher baseline energy consumption even when the average
+demand did not change that much. Thus, the ability to shift load to
+reduce peak demand was highlighted as a potential way to delay increases
 in consumption when energy proportionality is lacking.
 
 
 ## Improvements {#session3}
 
-The third session was about potential improvements. 
+The third session was about potential improvements.
 
 As noted earlier, there are many different types of improvements. In
 the discussion we focused mostly on protocol aspects, and looked at
 metrics, telemetry, routing, multicast, and data encoding formats.
 
-The initial two presentations focused on metrics and telemetry with the 
-premise that visibility is a very important first step (paraphrasing 
+The initial two presentations focused on metrics and telemetry with the
+premise that visibility is a very important first step (paraphrasing
 Peter Drucker's mantra of "You cannot improve what you don't measure").
-There was a discussion of the scopes of emissions and it seemed that 
+There was a discussion of the scopes of emissions and it seemed that
 Scope 3 emissions were much larger in size when compared to Scope 1/2
 emissions when seen from the networking vendor point of view. Thus it
 seemed important that the networking vendors had to put in effort into
@@ -565,15 +565,15 @@ protocols such as HTTP/2 have already chosen to use this
 technique. The importance of metrics was frequently highlighted to
 ensure changes lead to a meaningful reduction in overall system carbon
 footprint. There were also some interesting discussions regarding the
-use of multicast and whether it would help or hurt on the energy 
-efficiency of communications. There were some studies and simulations 
+use of multicast and whether it would help or hurt on the energy
+efficiency of communications. There were some studies and simulations
 that showed the potential gains to be had but were to be balanced against
 some of the well known barriers to deployment of multicast. We also heard
 from a leading CDN operator regarding their views on multicast and how it
 relates to media usage and consumption models. The hallway conversations
 also talked about the potential negative effects of multicast in wireless
-and constrained networks.Overall the conclusion was that the use of 
-multicast can potentially provide some savings but only in some specific 
+and constrained networks.Overall the conclusion was that the use of
+multicast can potentially provide some savings but only in some specific
 scenarios.
 
 ## Next Steps {#session4}
@@ -643,7 +643,7 @@ highlighted in discussions:
 
 * Masures beyond protocol design, such as implementations or renewable
   energy use. Not everything is about protocols.
-  
+
 * Metrics, measurements & data are very beneficial. Carbon-aware
   metrics would in particular be very useful. All additional
   information makes us more aware of what the environmental impacts
@@ -659,7 +659,7 @@ highlighted in discussions:
   may pay off significantly, as argued in {{Moran}}.
 
 * Possibly there’s a new opportunity for deploying multicast as well {{Navarre}}.
- 
+
 * Designing systems for energy constrained situations may actually
   make the resulting systems work well in several environments.
 
@@ -671,7 +671,7 @@ about how to discuss the topic going forward or what technical areas
 to focus on:
 
 * We need to continue the discussion – not all questions are
-   answered. Additional discussion within the IETF will be needed. 
+   answered. Additional discussion within the IETF will be needed.
    Continuing to connnect the IETF with others in society & other SDOs
    around this topic is also useful.
 
@@ -705,7 +705,7 @@ In summary, the goals that the IETF should have include:
 * Continuous improvement of our technology.
 * Launching research relevant activities.
 
-# Feedback 
+# Feedback
 
 TBD...
 
@@ -776,7 +776,7 @@ The program committee members were:
 
 * Jari Arkko, Ericsson (program committee co-chair)
 * Lars Eggert, Netapp (program committee co-chair)
-* Colin Perkins, University of Glasgow (program committee co-chair) 
+* Colin Perkins, University of Glasgow (program committee co-chair)
 * Luis M. Contreras, Telefónica
 * Toerless Eckert, Futurewei
 * Martin Flack, Akamai
