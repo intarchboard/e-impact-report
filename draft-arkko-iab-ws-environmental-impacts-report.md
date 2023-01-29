@@ -336,7 +336,7 @@ Environmental impact assessment and improvements are broad topics,
 ranging from technical questions to economics, business decisions, and
 policies.
 
-Technical, standards, and research communities can help
+The technical, standards, and research communities can help
 ensure that we have a sufficient understanding of the environmental
 impact of the Internet and its applications. They can also help to
 design the right tools to continue to build and improve all aspects of
@@ -350,13 +350,13 @@ The workshop was expected to discuss:
   limited to energy usage by Internet systems themselves, energy usage
   of the relevant end-user devices, resources needed for manufacturing
   the associated devices, or the environmental impacts throughout the
-  lifecycle of Internet systems. Discussion about the breakdown of those
-  impacts across different system components and operations. Predictions about the
+  life-cycle of Internet systems. This included discussion about the breakdown of those
+  impacts across different system components and operations, and predictions about the
   potential future trends for these impacts based on changed usage
   patterns and emerging technologies.
 
 * Discussion of the indirect environmental impacts of the Internet,
-  i.e., its effects on society overall, through enabling
+  i.e., its effects on society through enabling
   communications, virtual services, or global commerce.
 
 * Sharing information about relevant measurement metrics and data, and
@@ -370,9 +370,9 @@ The workshop was expected to discuss:
 
 * Discussing specific improvement proposals.
 
-* Discussion of past work in the IETF, IRTF and IAB in this area and the status of such work.
+* Discussion of past work in the IETF, IRTF, and IAB in this area and the status of such work.
 
-* Discussion of observed user behaviors as they relate to environmental impacts.
+* Discussion of observed user behaviours as they relate to environmental impacts.
 
 We expected that the workshop discussions connect analysis of the issues
 (e.g., scale of energy consumption or carbon footprint) to industry
@@ -383,8 +383,8 @@ they inform the workshop participants about the context we are in, but
 what those policies should be was not for the workshop to decide or
 even extensively discuss. The scope excluded also how the technical
 community works and meets, such as the question of in-person or hybrid
-meetings. (Although it should be noted that the workshop itself was
-run as an on-line meeting.)
+meetings (although it should be noted that the workshop itself was
+run as an on-line meeting).
 
 ## Practical Arrangements
 
