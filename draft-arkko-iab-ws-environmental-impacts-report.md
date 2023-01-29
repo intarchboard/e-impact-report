@@ -298,25 +298,26 @@ care deeply about the environmental impact of the services and
 technologies they use, there is also a clear demand for providing
 Internet services with minimal environmental impact.
 
-The role of the workshop was to discuss the Internet’s environmental
+The role of the workshop was to discuss the Internet's environmental
 impact, discuss the evolving needs from industry, and to identify
 areas for improvements and future work. A key goal of the workshop was
 to call further attention to the topic and to bring together a diverse
 stakeholder community to discuss these issues. This report summarises
 the workshop inputs and discussions.
 
-The workshop drew many position paper submissions, and 26 of them were
-accepted. There were active discussions both in the meeting and on the
-workshop mailing list with altogether 73 participants.
+The workshop drew many position paper submissions. Of these, 26 were
+accepted and published to stimulate discussion. There were active
+discussions both in the meeting and on the workshop mailing list with
+altogether 73 participants.
 
 Perhaps the main overriding observation is how much there is interest
 and urgency on this topic, among engineers, researchers, and
 businesses.
 
-The workshop discussions and conclusions are covered in
-{{discussions}}. Specific workshop sessions are also available on
-YouTube, the workshop papers can be found from the workshop page, and
-presentations held during the discussions can be found from the IETF
+The workshop discussions and conclusions are covered in {{discussions}}.
+The position papers, and links to recordings of workshop sessions, can
+be found at https://www.iab.org/activities/workshops/e-impact/.
+Presentations held during the discussions can be found from the IETF
 Datatracker.
 
 The discussion at the IETF will continue after the workshop, both
