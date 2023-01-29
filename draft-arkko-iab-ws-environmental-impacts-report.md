@@ -110,7 +110,7 @@ informative:
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   GOS:
-    title: "Tune In. Turn On. Cut Back. Finding the optimal streaming ‘default’ mode to increase energy efficiency, shift consumer expectations, and safeguard choice"
+    title: "Tune In. Turn On. Cut Back. Finding the optimal streaming 'default' mode to increase energy efficiency, shift consumer expectations, and safeguard choice"
     author:
      - ins: Greening of Streaming
     date: December 2022
@@ -750,7 +750,7 @@ The following position papers were submitted to the workshop:
 * Alexander Clemm, Lijun Dong, Greg Mirsky, Laurent Ciavaglia, Jeff Tantsura, Marie-Paule Odini: "Green Networking Metrics" {{Clemm}}
 * Alexander Clemm, Cedric Westphal, Jeff Tantsura, Laurent Ciavaglia, Marie-Paule Odini : "Challenges and Opportunities in Green Networking" {{Clemm}}
 * Toerless Eckert, Mohamed Boucadair, Pascal Thubert, Jeff Tantsura: "IETF and Energy – An Overview" {{Eckert}}
-* Greening of Streaming: "Tune In. Turn On. Cut Back. Finding the optimal streaming ‘default’ mode to increase energy efficiency, shift consumer expectations, and safeguard choice" {{GOS}}
+* Greening of Streaming: "Tune In. Turn On. Cut Back. Finding the optimal streaming 'default' mode to increase energy efficiency, shift consumer expectations, and safeguard choice" {{GOS}}
 * Romain Jacob: "Towards a power-proportional Internet" {{Jacob}}
 * Fieke Jansen and Maya Richman: "Environment, internet infrastructure, and digital rights" {{Jansen}}
 * Michael King, Suresh Krishnan, Carlos Pignataro, Pascal Thubert, Eric Voit: "On Principles for a Sustainability Stack" {{King}}
