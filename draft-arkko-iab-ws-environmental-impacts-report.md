@@ -465,24 +465,26 @@ classifies the areas that workshop position papers fell on:
 
     
     
-         +----- Actors & organizations          +------- Avoidance    
-         |                                      |                   
-         +----- Benefits to other fields        +------- User behaviour
-         |                                      |                     
-         +----- Society, awareness, & justice   +------- Implementation            
-         |                                      |                     
-    Workshop -- Improvements -------------------+                      
-         |                                      |       +-- Dataplane
-         +----- Understanding & measurements    |       |
-                     |               |          |       +-- Routing
-                     |               |          |       |
-                   Energy         Carbon        |       +-- Edge cloud
-                                                |       |
-                                            Protocols --+-- Mobile
+              +---- Actors & organizations      
+              |                                 +---- Avoidance
+              +---- Benefits to other fields    |                   
+              |                                 +---- User behaviour
+              +---- Society, awareness, &       |                     
+              |     justice                     +---- Implementation
+              |                                 |                     
+    Workshop -+- Improvements ------------------+                 
+              |                                 |
+              |     Understanding &             |       +---- Dataplane
+              +---- Measurements                |       |
+                          |                 Protocols --+---- Routing
+                          |                             |
+                          +---- Energy                  +---- Edge cloud
+                          |                             |
+                          +---- Carbon                  +---- Mobile
                                                         |
-							+-- Metrics
+                                                        +---- Metrics
                                                         |
-                                                        +-- Other
+                                                        +---- Other
      
      
           Figure 1: Position paper submission topics
