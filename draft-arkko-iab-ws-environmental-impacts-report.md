@@ -459,7 +459,37 @@ awareness. It is important to not stand still waiting for the perfect
 solution. Renewable energy and carbon awareness were seen as a part of
 the solution, but not, however, sufficient by themselves.
 
-Some of the goals for the IETF should include:
+As an example demonstration of the diversity of angles and
+improvements relating to environmental issues, the figure below
+classifies the areas that workshop position papers fell on:
+
+    
+    
+         +----- Actors & organizations          +------- Avoidance    
+         |                                      |                   
+         +----- Benefits to other fields        +------- User behaviour
+         |                                      |                     
+         +----- Society, awareness, & justice   +------- Implementation            
+         |                                      |                     
+    Workshop -- Improvements -------------------+                      
+         |                                      |       +-- Dataplane
+         +----- Understanding & measurements    |       |
+                     |               |          |       +-- Routing
+                     |               |          |       |
+                   Energy         Carbon        |       +-- Edge cloud
+                                                |       |
+                                            Protocols --+-- Mobile
+                                                        |
+							+-- Metrics
+                                                        |
+                                                        +-- Other
+     
+     
+          Figure 1: Position paper submission topics
+     
+     
+
+Some of the goals for the IETF should include:                                         
 
 * Connecting IETF with others. Given that the issue is broad, it is
   difficult for one standards organisation to take significant
