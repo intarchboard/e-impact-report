@@ -351,29 +351,34 @@ The workshop was expected to discuss:
   limited to energy usage by Internet systems themselves, energy usage
   of the relevant end-user devices, resources needed for manufacturing
   the associated devices, or the environmental impacts throughout the
-  life-cycle of Internet systems. This included discussion about the breakdown of those
-  impacts across different system components and operations, and predictions about the
-  potential future trends for these impacts based on changed usage
-  patterns and emerging technologies.
+  life-cycle of Internet systems. This included discussion about the
+  breakdown of those impacts across different system components and
+  operations, and predictions about the potential future trends for
+  these impacts based on changed usage patterns and emerging
+  technologies.
 
 * Discussion of the indirect environmental impacts of the Internet,
-  i.e., its effects on society through enabling
-  communications, virtual services, or global commerce.
+  i.e., its effects on society through enabling communications,
+  virtual services, or global commerce.
 
 * Sharing information about relevant measurement metrics and data, and
   identify the need for additional metric or measurements.
 
-* Discussing about the need for improvements or associated new functionality.
+* Discussing about the need for improvements or associated new
+  functionality.
 
-* Sharing information about the societal, business, and regulatory situation, to help identify areas of opportunity.
+* Sharing information about the societal, business, and regulatory
+  situation, to help identify areas of opportunity.
 
 * Identifying areas where further technical work would be most impactful.
 
 * Discussing specific improvement proposals.
 
-* Discussion of past work in the IETF, IRTF, and IAB in this area and the status of such work.
+* Discussion of past work in the IETF, IRTF, and IAB in this area and
+  the status of such work.
 
-* Discussion of observed user behaviours as they relate to environmental impacts.
+* Discussion of observed user behaviours as they relate to
+  environmental impacts.
 
 We expected that the workshop discussions connect analysis of the issues
 (e.g., scale of energy consumption or carbon footprint) to industry
@@ -423,9 +428,14 @@ The meeting part of the workshop was divided into four sessions:
 
 * The first session was about the big picture and relationships
   between different aspects of sustainability (see {{session1}}).
-* The second session focused on what we know and do not know, and how we can measure environmental impacts (see {{session2}}).
+
+* The second session focused on what we know and do not know, and how
+  we can measure environmental impacts (see {{session2}}).
+
 * The third session was about potential improvements (see {{session3}}).
-* The final fourth session was about conclusions and next steps (see {{session4}}).
+
+* The final fourth session was about conclusions and next steps (see
+  {{session4}}).
 
 ## The Big Picture {#session1}
 
@@ -433,16 +443,17 @@ This session was about the big picture and how the Internet
 influences the rest of the society. We also spoke about the goals of
 the workshop.
 
-Jari Arkko spoke about the what is overall involved in this topic
-{{Arkko}}. Toerless Eckert talked about how the IETF has approached
-this topic in the past {{Eckert}}.  Vesna Manojlovic then spoke about
-the urgency of action and the importance of continuous improvement: an
-incremental change every year is needed for larger savings at the end
-of the decade {{Manojlovic}}. She also highlighted the need to
-recognize how climate changes impact different communities in the
-world, often unfairly. Finally, Eve Schooler argued that we need to be
-aware of carbon footprint rather than pure energy consumption - carbon
-intensity of energy sources varies {{Schooler}}.
+The session began with a discussion about what is overall involved in
+this topic.  We also looked at how the IETF has approached
+this topic in the past.
+
+The discussions also expressed the urgency of action and the
+importance of continuous improvement: an incremental change every year
+is needed for larger savings at the end of the decade. We continued to
+talk about the need to recognize how climate changes impact different
+communities in the world, often unfairly. Finally, we focused on the
+need to be aware of carbon footprint rather than pure energy
+consumption - carbon intensity of energy sources varies.
 
 The starting observation from this session was that the issue is much
 bigger than our technology alone.  The issue influences all parts of
@@ -500,11 +511,11 @@ Some of the goals for the IETF should include:
   others is necessary.  And understanding the situation beyond
   technology will be needed.
 
-* Continuous improvement. As argued by Vesna Manojlovic, it is
-  important that the IETF (among others) sets itself on a continuous
-  improvement cycle. No single improvement will change the overall
-  situation sufficiently, but over a longer period of time, even
-  smaller changes every year will result in larger improvements.
+* Continuous improvement. It is important that the IETF (among others)
+  sets itself on a continuous improvement cycle. No single improvement
+  will change the overall situation sufficiently, but over a longer
+  period of time, even smaller changes every year will result in
+  larger improvements.
 
 * Finding the right targets for improvements in the Internet. These
   should perhaps not be solely defined by larger speeds or bigger
@@ -525,7 +536,7 @@ Some of the goals for the IETF should include:
 The second session focused on what we know and do not know, and how we
 can measure environmental impacts.
 
-The initial presentation from Michael Welzl focused on narrowing down
+The initial presentation from focused on narrowing down
 the lower and upper limits of the energy use of the Internet. There
 was also discussion regarding the energy consumption of the ICT sector
 and how it compares to some other selected industries such as
@@ -591,19 +602,18 @@ The overall feeling was that the topic of metrics, telemetry, and management
 are quite specific and could be targets to be worked in the IETF in the near
 term.
 
-Russ White's presentation highlighted the need to understand the
+The next part of the discussion highlighted the need to understand the
 trade-offs involved in changing forwarding decisions - such as
 increased stretch and jitter. This points to the need for careful
 design and analysis of improvements from a system perspective, to
 ensure that the intended effect is indeed reached across the entire
 system, and is not only a local optima.
 
-Brendan Moran talked about the potentially significant
-impact of using efficiency binary formats when carrying data in
-protocols. This is something that can be relatively easily adopted in
-new protocols as they are developed. Indeed, some recently finished
-protocols such as HTTP/2 have already chosen to use this
-technique.
+We also talked about the potentially significant impact of using
+efficiency binary formats when carrying data in protocols. This is
+something that can be relatively easily adopted in new protocols as
+they are developed. Indeed, some recently finished protocols such as
+HTTP/2 have already chosen to use this technique.
 
 There were also some interesting discussions regarding the
 use of multicast and whether it would help or hurt on the energy
@@ -771,11 +781,14 @@ aspects. These need to be looked at for every proposed change.
 Such influence on security may come in different forms. For instance:
 
 * Streamlining what data is sent may improve privacy if less information
-is shared.
+  is shared.
 
-* A mechanism that makes energy consumption information available may be susceptible to tampering or providing false information.
+* A mechanism that makes energy consumption information available may
+  be susceptible to tampering or providing false information.
 
-* A mechanism that allows control of network elements for optimization purposes may be misused to cause denial-of-service or other types of attacks.
+* A mechanism that allows control of network elements for optimization
+  purposes may be misused to cause denial-of-service or other types of
+  attacks.
 
 
 # IANA Considerations
