@@ -407,6 +407,11 @@ All in all, 73 people participated in at least one session in the
 workshop. Participation was by invitation only, based on the position
 paper submissions.
 
+Every submission was read by at least three members of the program
+committee, and acceptance decisions were communicated back to the
+authors. Review comments were provided for authors for information,
+and some of the papers were revised before the workshop.
+
 The program committee decided that due to interest and differing areas
 of expertise, all co-authors were to be invited, and most of them did
 attend. The program committee also invited a handful of additional
