@@ -495,10 +495,10 @@ classifies the areas that workshop position papers fell on:
 Some of the goals for the IETF should include:                                         
 
 * Connecting IETF with others. Given that the issue is broad, it is
-  difficult for one standards organisation to take significant
-  actions. Working in collaboration others is necessary.
-  And understanding the situation beyond technology
-  will be needed.
+  difficult for one standards organisation alone to make a significant
+  impact, or even have the full picture. Working in collaboration
+  others is necessary.  And understanding the situation beyond
+  technology will be needed.
 
 * Continuous improvement. As argued by Vesna Manojlovic, it is
   important that the IETF (among others) sets itself on a continuous
@@ -506,9 +506,10 @@ Some of the goals for the IETF should include:
   situation sufficiently, but over a longer period of time, even
   smaller changes every year will result in larger improvements.
 
-* Finding the right targets for work in the Internet, and perhaps not
-  solely defined by larger speeds or bigger capacity, but rather
-  increased usefulness to society and declining emissions from ICT.
+* Finding the right targets for improvements in the Internet. These
+  should perhaps not be solely defined by larger speeds or bigger
+  capacity, but rather increased usefulness to society and declining
+  emissions from ICT.
 
 * Specifying what research needs to be done, i.e., where additional
   knowledge would allow us to find better improvements. For instance,
@@ -545,19 +546,20 @@ even by an order of magnitude (e.g., confusing MBps vs Mbps in calculations).
 In the rest of the session we looked at both
 additional data collected from the operators as well as factors that -
 depending on circumstances - may drive energy consumption. These
-include for instance peak capacity and energy proportionality. If
-energy consumption is little affected by offered load, the ratio of
+include for instance peak capacity and energy proportionality.
+
+If energy consumption is little affected by offered load, the ratio of
 peak capacity to typical usage becomes a critical factor in energy
 consumption. On the other hand, systems with energy proportionality
 scale their resource and energy consumption more dynamically based on
 offered load. There were also observations that showed that the energy
-consumption at grew as a step function when the peak capacity was
-reached (even instantaneously) and additional capacity was built up
-by performing network upgrades to handle these new peaks. This resulted
+consumption grew as a step function when the peak capacity was
+reached (even instantaneously) and additional capacity was built up by
+performing network upgrades to handle these new peaks. This resulted
 in a overall higher baseline energy consumption even when the average
 demand did not change that much. Thus, the ability to shift load to
-reduce peak demand was highlighted as a potential way to delay increases
-in consumption when energy proportionality is lacking.
+reduce peak demand was highlighted as a potential way to delay
+increases in consumption when energy proportionality is lacking.
 
 
 ## Improvements {#session3}
@@ -568,18 +570,18 @@ As noted earlier, there are many different types of improvements. In
 the discussion we focused mostly on protocol aspects, and looked at
 metrics, telemetry, routing, multicast, and data encoding formats.
 
-The initial two presentations focused on metrics and telemetry with the
-premise that visibility is a very important first step (paraphrasing
-Peter Drucker's mantra of "You cannot improve what you don't measure").
-There was a discussion of the scopes of emissions and it seemed that
-Scope 3 emissions were much larger in size when compared to Scope 1/2
-emissions when seen from the networking vendor point of view. Thus it
-seemed important that the networking vendors had to put in effort into
-helping their customers measure and mitigate their environmental impact
-as well. The need for standardized metrics was very clear as it helps avoid
-proprietary, redundant and even contradictory metrics across vendors.
-
-TODO add definition of Scope 1 through or reword.
+The initial two presentations focused on metrics and telemetry with
+the premise that visibility is a very important first step
+(paraphrasing Peter Drucker's mantra of "You cannot improve what you
+don't measure").  There was a discussion of the scopes of emissions
+and it seemed that from a networking vendor perspective, while
+directly controlled emissions and emissions from purchased energy are
+easily measurable, emissions from across the entire value chain can be
+much larger. Thus it seemed important that the networking vendors had to put
+in effort into helping their customers measure and mitigate their
+environmental impact as well. The need for standardized metrics was
+very clear as it helps avoid proprietary, redundant and even
+contradictory metrics across vendors.
 
 The initial and the near-term focus was related to metrics and techniques
 related to energy consumption of the networking devices themselves while
@@ -589,16 +591,21 @@ The overall feeling was that the topic of metrics, telemetry, and management
 are quite specific and could be targets to be worked in the IETF in the near
 term.
 
-Russ White's presentation highlighted the need to understand the trade-offs
-involved in changing forwarding decisions - such as increased stretch
-and jitter. Brendan Moran talked about the potentially significant
+Russ White's presentation highlighted the need to understand the
+trade-offs involved in changing forwarding decisions - such as
+increased stretch and jitter. This points to the need for careful
+design and analysis of improvements from a system perspective, to
+ensure that the intended effect is indeed reached across the entire
+system, and is not only a local optima.
+
+Brendan Moran talked about the potentially significant
 impact of using efficiency binary formats when carrying data in
 protocols. This is something that can be relatively easily adopted in
 new protocols as they are developed. Indeed, some recently finished
 protocols such as HTTP/2 have already chosen to use this
-technique. The importance of metrics was frequently highlighted to
-ensure changes lead to a meaningful reduction in overall system carbon
-footprint. There were also some interesting discussions regarding the
+technique.
+
+There were also some interesting discussions regarding the
 use of multicast and whether it would help or hurt on the energy
 efficiency of communications. There were some studies and simulations
 that showed the potential gains to be had but were to be balanced against
@@ -606,9 +613,13 @@ some of the well known barriers to deployment of multicast. We also heard
 from a leading CDN operator regarding their views on multicast and how it
 relates to media usage and consumption models. The hallway conversations
 also talked about the potential negative effects of multicast in wireless
-and constrained networks.Overall the conclusion was that the use of
+and constrained networks. Overall the conclusion was that the use of
 multicast can potentially provide some savings but only in some specific
 scenarios.
+
+For all improvements, the importance of metrics was frequently
+highlighted to ensure changes lead to a meaningful reduction in
+overall system carbon footprint.
 
 ## Next Steps {#session4}
 
@@ -741,7 +752,7 @@ In summary, the goals that the IETF should have include:
 
 # Feedback
 
-TBD...
+The organizers received generally positive feedback about the workshop.
 
 One practical issue from the organizer's point of view was that due to
 the extension of the deadline, the final submissions and paper reviews
