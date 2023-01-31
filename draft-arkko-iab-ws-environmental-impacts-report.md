@@ -318,11 +318,12 @@ The workshop discussions and conclusions are covered in {{discussions}}.
 The position papers, and links to recordings of workshop sessions, can
 be found at https://www.iab.org/activities/workshops/e-impact/.
 Presentations held during the discussions can be found from the IETF
-Datatracker.
+Datatracker at https://datatracker.ietf.org/group/eimpactws/meetings/.
 
 The discussion at the IETF will continue after the workshop, both
 around specific proposals as well as general discussion on a new
-mailing list, the e-impact list (e-impact@ietf.org).
+mailing list, the e-impact list (e-impact@ietf.org). You can subscribe
+to this list at https://www.ietf.org/mailman/listinfo/e-impact.
 
 Some improvements addressing specific situations are
 being discussed at the IETF, such as the Time Variant Routing (TVR)
