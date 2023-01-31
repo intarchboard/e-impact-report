@@ -27,4 +27,4 @@ compile actually-working-compile-without-v3-garbage: draft-arkko-iab-ws-environm
 	scp $(SCPPORT) $(MACHINE):/tmp/draft-arkko-iab-ws-environmental-impacts-report.txt .
 	scp $(SCPPORT) $(MACHINE):/tmp/draft-arkko-iab-ws-environmental-impacts-report.txt \
 		.
-	scp draft-*-ws-environmental-*.txt root@cloud3.arkko.eu:/var/www/www.arkko.com/html/ietf/iab
+	scp draft-*-ws-environmental-*.txt versions/*.txt versions/*.xml root@cloud3.arkko.eu:/var/www/www.arkko.com/html/ietf/iab
