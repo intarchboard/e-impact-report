@@ -41,6 +41,10 @@ author:
 normative:
 
 informative:
+  RFC4689: 
+  RFC7540: 
+  RFC7980: 
+  RFC8949:
   Adams:
     title: "Extending IPv6 to support Carbon Aware Networking"
     author:
@@ -609,28 +613,35 @@ term.
 
 The next part of the discussion highlighted the need to understand the
 trade-offs involved in changing forwarding decisions - such as
-increased stretch and jitter. This points to the need for careful
-design and analysis of improvements from a system perspective, to
-ensure that the intended effect is indeed reached across the entire
-system, and is not only a local optima.
+increased jitter and stretch. Jitter is about delay fluctuation
+between packets in a stream {{RFC4689}}. Stretch is defined as the
+difference between the absolute shortest path traffic could take
+through the network and the path the traffic actually takes
+{{RFC7980}}. Impacts on jitter and stretch point to the need for
+careful design and analysis of improvements from a system perspective,
+to ensure that the intended effect is indeed reached across the entire
+system, and is not only a local optimum.
 
 We also talked about the potentially significant impact of using
-efficiency binary formats when carrying data in protocols. This is
-something that can be relatively easily adopted in new protocols as
-they are developed. Indeed, some recently finished protocols such as
-HTTP/2 have already chosen to use this technique.
+efficient binary formats instead of textual representations when
+carrying data in protocols. This is something that can be relatively
+easily adopted in new protocols as they are developed. Indeed, some
+recently finished protocols such as HTTP/2 have already chosen to use
+this technique {{RFC7540}}.  General-purpose binary formats such as
+Concise Binary Object Representation (CBOR) {{RFC8949}} are also
+available for use.
 
-There were also some interesting discussions regarding the
-use of multicast and whether it would help or hurt on the energy
-efficiency of communications. There were some studies and simulations
-that showed the potential gains to be had but were to be balanced against
-some of the well known barriers to deployment of multicast. We also heard
-from a leading CDN operator regarding their views on multicast and how it
-relates to media usage and consumption models. The hallway conversations
-also talked about the potential negative effects of multicast in wireless
-and constrained networks. Overall the conclusion was that the use of
-multicast can potentially provide some savings but only in some specific
-scenarios.
+There were also some interesting discussions regarding the use of
+multicast and whether it would help or hurt on the energy efficiency
+of communications. There were some studies and simulations that showed
+the potential gains to be had but were to be balanced against some of
+the well known barriers to deployment of multicast. We also heard from
+a leading Content Delivery Network (CDN) operator regarding their
+views on multicast and how it relates to media usage and consumption
+models. The hallway conversations also talked about the potential
+negative effects of multicast in wireless and constrained
+networks. Overall the conclusion was that the use of multicast can
+potentially provide some savings but only in some specific scenarios.
 
 For all improvements, the importance of metrics was frequently
 highlighted to ensure changes lead to a meaningful reduction in
@@ -948,4 +959,7 @@ The participants who attended at least one of the four sessions were:
 # Acknowledgments
 
 The organizers wish to thank Cindy Morgan and Greg Wood for their work on the
-practical arrangements and communications relating to he workshop.
+practical arrangements and communications relating to he
+workshop. This report was greatly enhanced by the feedback provided on
+list, special thanks to Michael Welzl.
+
