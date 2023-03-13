@@ -604,7 +604,7 @@ footprint of the ICT sector there was discussion regarding how the
 impact was split amongst the networks, data centres and user devices
 (with the user devices appearing to contribute to the largest fraction
 of the impact). Also, while lot of the energy consumption related studies
-and discussions were focused on data centers, some studies
+and discussions have been focused on data centers, some studies
 suggested that data center energy usage is still a small fraction of
 energy use as compared to residential and commercial buildings.
 
@@ -734,7 +734,7 @@ impact over a longer period of time.
 
 One of the key realizations from this workshop was that the problem to be solved
 is very large, complex and that there is no single solution that fixes everything.
-There were some solutions that could help in the near term and others that
+There are some solutions that could help in the near term and others that
 would only show benefits over longer periods, but they are both necessary.
 
 One further challenge is that due to the size and complexity of the problem, it 
