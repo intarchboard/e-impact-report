@@ -246,6 +246,12 @@ informative:
      - ins: P. Thubert
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
+  TVR:
+    title: "Time-Variant Routing (TVR)"
+    author:
+     - ins: IESG
+    date: February 2023
+    seriesinfo: "IETF Working Group, see https://datatracker.ietf.org/group/tvr/about/"
   Vanderbauwhede:
     title: "Frugal Computing"
     author:
@@ -786,11 +792,13 @@ to focus on:
   dedicate a section to discuss the these impacts. No conclusion
   was drawn about the way to document these in RFCs, but it is clear
   that the IETF community will need to understand the environmental
-  issues better.
+  issues better. (Perhaps in addition to learning about the actual
+  issues, guidelines for analysing protocols with regards to their
+  impacts could be useful.)
 
 * IETF activities on specific technologies are already
    ongoing/starting, such as metrics, or the new Time Variant Routing
-   (TVR) working group. It may be useful to start from picking the
+   (TVR) working group {{TVR}}. It may be useful to start from picking the
    low-hanging fruits, such as:
 
    * Focusing on the use of efficient data formats.
@@ -995,8 +1003,9 @@ The participants who attended at least one of the four sessions were:
 
 # Acknowledgments
 
+Naturally, most of the credit goes to the workshop participants. 
+
 The organizers wish to thank Cindy Morgan and Greg Wood for their work on the
 practical arrangements and communications relating to he
 workshop. This report was greatly enhanced by the feedback provided on
-list, special thanks to Michael Welzl.
-
+it, thanks to Michael Welzl in particular for his detailed review.
