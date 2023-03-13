@@ -510,9 +510,9 @@ classifies the areas that workshop position papers fell on:
 
 Some of the goals for the IETF should include:                                         
 
-* Connecting IETF with others. Given that the issue is broad, it is
+* Connecting the IETF with others. Given that the issue is broad, it is
   difficult for one standards organisation alone to make a significant
-  impact, or even have the full picture. Working in collaboration
+  impact, or even have the full picture. Working in collaboration with
   others is necessary.  And understanding the situation beyond
   technology will be needed.
 
@@ -541,7 +541,7 @@ Some of the goals for the IETF should include:
 The second session focused on what we know and do not know, and how we
 can measure environmental impacts.
 
-The initial presentation from focused on narrowing down
+The initial presentation focused on narrowing down
 the lower and upper limits of the energy use of the Internet. There
 was also discussion regarding the energy consumption of the ICT sector
 and how it compares to some other selected industries such as
@@ -604,7 +604,7 @@ related to energy consumption of the networking devices themselves while
 the longer term focus can go into topics much further removed from the IETF
 such as packaging, circular design in order to form a more holistic picture.
 The overall feeling was that the topic of metrics, telemetry, and management
-are quite specific and could be targets to be worked in the IETF in the near
+are quite specific and could be targets to be worked on in the IETF in the near
 term.
 
 The next part of the discussion highlighted the need to understand the
