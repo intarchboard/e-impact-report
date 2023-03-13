@@ -150,6 +150,12 @@ informative:
      - ins: C. Pignataro
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
+  McDaniel:
+    title: "Sustainability is a Security Problem"
+    author:
+     - ins: P. McDaniel
+    date: November 2022
+    seriesinfo: "ACM Conference on Computer and Communications Security (CCS)"
   Manner:
     title: "Sustainability Considerations"
     author:
@@ -841,17 +847,22 @@ aspects. These need to be looked at for every proposed change.
 
 Such influence on security may come in different forms. For instance:
 
-* Streamlining what data is sent may improve privacy if less information
-  is shared.
-
-* A mechanism that makes energy consumption information available may
-  be susceptible to tampering or providing false information.
+* A mechanism that makes, for instance, energy consumption information
+  available may be susceptible to tampering or providing false
+  information. For instance, {{McDaniel}} argues that economics and
+  history shows that different players will attempt to cheat if a
+  benefit can be acrued by doing so, e.g., by misreporting.  As a
+  result, sustainability measures and systems must be modeled as
+  systems under threat.
 
 * A mechanism that allows control of network elements for optimization
   purposes may be misused to cause denial-of-service or other types of
   attacks.
 
 * Avoiding the use of crypto assets where other mechanisms suffice.
+
+* Streamlining what data is sent may improve privacy if less information
+  is shared.
 
 # IANA Considerations
 
