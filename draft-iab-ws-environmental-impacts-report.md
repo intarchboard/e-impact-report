@@ -206,10 +206,10 @@ informative:
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   NMRG:
     title: "Network Management Research Group (NMRG)"
-	author:
-	 - ins: "IRTF"
-	date: March 1999
-	seriesinfo: "IRTF Research Group, see https://irtf.org/nmrg"
+    author:
+     - ins: "IRTF"
+    date: March 1999
+    seriesinfo: "IRTF Research Group, see https://irtf.org/nmrg"
   Nordman:
     title: "Applying Internet Architecture to Energy Systems"
     author:
@@ -218,10 +218,10 @@ informative:
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   OPSAWG:
     title: "Operations and Management Area Working Group (OPSAWG)"
-	author:
-	 - ins: IETF
-	date: June 2007
-	seriesinfo: "IETF Working Group, see https://datatracker.ietf.org/wg/opsawg/about/"
+    author:
+     - ins: IETF
+    date: June 2007
+    seriesinfo: "IETF Working Group, see https://datatracker.ietf.org/wg/opsawg/about/"
   Retana:
     title: "A Framework and Requirements for Energy Aware Control Planes"
     author:
