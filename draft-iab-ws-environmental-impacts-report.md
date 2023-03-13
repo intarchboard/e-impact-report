@@ -719,6 +719,14 @@ accelerate them? It should be noted that quick, large changes are not
 likely. But a continuous stream of smaller changes can create a large
 impact over a longer period of time.
 
+One of the key realizations from this workshop was that the problem to be solved
+is huge and complex and there is no single solution that fixes everything.
+There were some solutions that could help in the near term and others that
+would only show benefits over longer periods, but they were both necessary.
+One further challenge is that due to the size and complexity of the problem, it 
+was very likely that there might be varying opinions on what KPIs need 
+to be measured and improved.
+
 ### Improvements {#nextstepsimprovements}
 
 In looking at potential improvements, it is essential that any
