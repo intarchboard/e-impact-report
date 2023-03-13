@@ -143,6 +143,14 @@ informative:
      - ins: E. Voit
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
+  Kostentinos:
+    title: "End-to-end Energy Efficiency at Service-level in Edge Cloud"
+    author:
+     - ins: S. Tesfatsion
+     - ins: X. Cai
+     - ins: A. Ahmed
+    date: December 2022
+    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Krishnan:
     title: "Sustainability considerations for networking equipment"
     author:
@@ -196,12 +204,24 @@ informative:
      - ins: O. Bonaventure
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
+  NMRG:
+    title: "Network Management Research Group (NMRG)"
+	author:
+	 - ins: "IRTF"
+	date: March 1999
+	seriesinfo: "IRTF Research Group, see https://irtf.org/nmrg"
   Nordman:
     title: "Applying Internet Architecture to Energy Systems"
     author:
      - ins: B. Nordman
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
+  OPSAWG:
+    title: "Operations and Management Area Working Group (OPSAWG)"
+	author:
+	 - ins: IETF
+	date: June 2007
+	seriesinfo: "IETF Working Group, see https://datatracker.ietf.org/wg/opsawg/about/"
   Retana:
     title: "A Framework and Requirements for Energy Aware Control Planes"
     author:
@@ -236,14 +256,6 @@ informative:
      - ins: D. Nafus
      - ins: R. Manohar
      - ins: U. Cummings
-    date: December 2022
-    seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
-  Kostentinos:
-    title: "End-to-end Energy Efficiency at Service-level in Edge Cloud"
-    author:
-     - ins: S. Tesfatsion
-     - ins: X. Cai
-     - ins: A. Ahmed
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Thubert:
@@ -389,14 +401,15 @@ environmental impacts in other ways.
 The workshop was expected to discuss:
 
 * The direct environmental impacts of the Internet, including but not
-  limited to energy usage by Internet systems themselves (the network equipmenting and the power/cooling infrastructure nettded for such equipment), energy usage
-  of the relevant end-user devices, resources needed for manufacturing
-  the associated devices, or the environmental impacts throughout the
-  life-cycle of Internet systems. This included discussion about the
-  breakdown of those impacts across different system components and
-  operations, and predictions about the potential future trends for
-  these impacts based on changed usage patterns and emerging
-  technologies.
+  limited to energy usage by Internet systems themselves (the network
+  equipment along with the associated power and cooling
+  infrastructure), energy usage of the relevant end-user devices,
+  resources needed for manufacturing the associated devices, or the
+  environmental impacts throughout the life-cycle of Internet
+  systems. This included discussion about the breakdown of those
+  impacts across different system components and operations, and
+  predictions about the potential future trends for these impacts
+  based on changed usage patterns and emerging technologies.
 
 * Discussion of the indirect environmental impacts of the Internet,
   i.e., its effects on society through enabling communications,
@@ -591,8 +604,8 @@ footprint of the ICT sector there was discussion regarding how the
 impact was split amongst the networks, data centres and user devices
 (with the user devices appearing to contribute to the largest fraction
 of the impact). Also, while lot of the energy consumption related studies
-and discussions were focused on data centers, there were some studies
-that revealed that data center energy usage is a very small fraction of
+and discussions were focused on data centers, some studies
+suggested that data center energy usage is still a small fraction of
 energy use as compared to residential and commercial buildings.
 
 There were also further discussions both during the presentations and in
@@ -720,9 +733,10 @@ likely. But a continuous stream of smaller changes can create a large
 impact over a longer period of time.
 
 One of the key realizations from this workshop was that the problem to be solved
-is huge and complex and there is no single solution that fixes everything.
+is very large, complex and that there is no single solution that fixes everything.
 There were some solutions that could help in the near term and others that
-would only show benefits over longer periods, but they were both necessary.
+would only show benefits over longer periods, but they are both necessary.
+
 One further challenge is that due to the size and complexity of the problem, it 
 was very likely that there might be varying opinions on what KPIs need 
 to be measured and improved.
@@ -813,10 +827,11 @@ to focus on:
   issues, guidelines for analysing protocols with regards to their
   impacts could be useful.)
 
-* IETF activities on specific technologies are already
-   ongoing/starting, such as metrics, or the new Time Variant Routing
-   (TVR) working group {{TVR}}. It may be useful to start from picking the
-   low-hanging fruits, such as:
+* IETF activities on specific technologies are already ongoing or
+   starting, such as metrics discussed, for instance, at the NMRG
+   research group {{NMRG}} or the OPSAWG working group {{OPSAWG}}, or
+   the new Time Variant Routing (TVR) working group {{TVR}}. It may be
+   also useful to start from picking the low-hanging fruits, such as:
 
    * Focusing on the use of efficient data formats.
    * Avoiding crypto assets - such as Non-Fungible Tokens
