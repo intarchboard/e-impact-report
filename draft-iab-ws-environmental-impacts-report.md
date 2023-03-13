@@ -389,7 +389,7 @@ environmental impacts in other ways.
 The workshop was expected to discuss:
 
 * The direct environmental impacts of the Internet, including but not
-  limited to energy usage by Internet systems themselves, energy usage
+  limited to energy usage by Internet systems themselves (the network equipmenting and the power/cooling infrastructure nettded for such equipment), energy usage
   of the relevant end-user devices, resources needed for manufacturing
   the associated devices, or the environmental impacts throughout the
   life-cycle of Internet systems. This included discussion about the
@@ -590,7 +590,10 @@ aviation. Dwelling deeper into the energy consumption and the carbon
 footprint of the ICT sector there was discussion regarding how the
 impact was split amongst the networks, data centres and user devices
 (with the user devices appearing to contribute to the largest fraction
-of the impact).
+of the impact). Also, while lot of the energy consumption related studies
+and discussions were focused on data centers, there were some studies
+that revealed that data center energy usage is a very small fraction of
+energy use as compared to residential and commercial buildings.
 
 There were also further discussions both during the presentations and in
 the hallway chats regarding the press and media coverage of the potential
