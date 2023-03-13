@@ -28,7 +28,6 @@ compile actually-working-compile-without-v3-garbage: draft-iab-ws-environmental-
 	ssh $(PORT) $(MACHINE) 'cd /tmp; sed "s/ , /, /g" draft-iab-ws-environmental-impacts-report.txt > temp.txt; rm -f draft-iab-ws-environmental-impacts-report.txt; mv -i temp.txt draft-iab-ws-environmental-impacts-report.txt'
 	ssh $(PORT) $(MACHINE) 'cd /tmp; rfcdiff draft-iab-ws-environmental-impacts-report-'$(OLDREV)'.txt draft-iab-ws-environmental-impacts-report.txt'
 	scp $(SCPPORT) $(MACHINE):/tmp/draft-iab-ws-environmental-impacts-report.txt .
-	ssh root@cloud3.arkko.eu 'cd /var/www/www.arkko.com/html/ietf/iab; rm draft-arkko-iab-ws-env*'
 	scp $(SCPPORT) $(MACHINE):/tmp/draft-iab-ws*.html \
 		.
 	scp draft-*-ws-environmental-*.txt versions/*.txt versions/*.xml *.html root@cloud3.arkko.eu:/var/www/www.arkko.com/html/ietf/iab

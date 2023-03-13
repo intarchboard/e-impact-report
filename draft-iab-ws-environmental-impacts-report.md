@@ -102,6 +102,7 @@ informative:
      - ins: J. Tantsura
      - ins: L. Ciavaglia
      - ins: M.-P. Odini
+     - ins: M. Welzl
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
   Eckert:
@@ -277,7 +278,31 @@ This report summarises the workshop inputs and discussions.
 
 --- middle
 
-# Introduction
+# Table of Contents {#toc}
+
+    1.  Table of Contents
+    2.  Introduction
+    3.  Scope
+        3.1. Practical Arrangements
+    4.  Workshop Topics and Discussion
+        4.1. The Big Picture
+        4.2. Understanding the Impacts
+        4.3. Improvements
+        4.4. Next Steps
+             4.4.1. Overall Strategy
+             4.4.2. Improvements
+             4.4.3. Actions
+    5.  Feedback
+    6.  Security Considerations
+    7.  IANA Considerations
+    8.  Position Papers
+    9.  Program Committee
+    10. Workshop Participants
+    11. Informal References
+    Appendix A. IAB Members at the Time of Approval
+    Appendix B. Acknowledgments
+
+# Introduction {#intro}
 
 The IAB ran an online workshop in December 2022 on exploring
 and understanding the environmental impacts of the Internet.
@@ -335,7 +360,7 @@ proposal that can help optimize connectivity with systems that are
 periodically on or reachable (such as satellites). We expect more
 proposals in the future.
 
-# Scope
+# Scope {#scope}
 
 Environmental impact assessment and improvements are broad topics,
 ranging from technical questions to economics, business decisions, and
@@ -396,7 +421,7 @@ community works and meets, such as the question of in-person or hybrid
 meetings (although it should be noted that the workshop itself was
 run as an on-line meeting).
 
-## Practical Arrangements
+## Practical Arrangements {#practical}
 
 The IAB discussed a potential workshop in this area during its May
 2022 retreat. A call for position papers went out in August
@@ -634,7 +659,7 @@ available for use.
 There were also some interesting discussions regarding the use of
 multicast and whether it would help or hurt on the energy efficiency
 of communications. There were some studies and simulations that showed
-the potential gains to be had but were to be balanced against some of
+the potential gains to be had but they were to be balanced against some of
 the well known barriers to deployment of multicast. We also heard from
 a leading Content Delivery Network (CDN) operator regarding their
 views on multicast and how it relates to media usage and consumption
@@ -652,7 +677,7 @@ overall system carbon footprint.
 The final fourth session was about conclusions and next steps. This
 section highlights some of these conclusions.
 
-### Overall strategy
+### Overall Strategy {#strategy}
 
 While only a few things are easy, the road ahead for making
 improvements seems clear: we need to continue to improve our
@@ -665,7 +690,7 @@ protocols.
 On understanding our environmental impact the first step is better
 awareness of sustainability issues in general, which helps us
 understand better where our issues are. The second step is willigness
-to understand in detail what the causes and relationships within our
+to understand in detail what the causes and relationships are within our
 issues. What parts, components, or behaviours in the network cause
 what kinds of impacts? An overall drive in the society to report and improve
 environmental impacts can be helpful in creating a willingness to get
@@ -679,20 +704,21 @@ accelerate them? It should be noted that quick, large changes are not
 likely. But a continuous stream of smaller changes can create a large
 impact over a longer period of time.
 
-### Improvements
+### Improvements {#nextstepsimprovements}
 
-In looking at potential improvements, it is essential that the
-associated tradeoffs can be understood, and that the role of the
-Internet in improving other areas of society is not diminished. For
-instance, discussion in session three revealed how some changes might
-impact latency and jitter. Given that these characteristics are an
-important factor how virtual meetings are perceived by potential
-participants, it is important that the performance of networks
-satisfies these participants at a level where there's willingness to
-use them over other potentially more environmentally harmful methods,
-such as travel.
+In looking at potential improvements, it is essential that any
+associated tradeoffs can be understood (note that not all improvements
+do indeed entail a tradeoff). The role of the Internet in improving
+other areas of society must not be diminished.”  For instance,
+discussion in session three revealed how some changes might impact
+latency and jitter. Given that these characteristics are an important
+factor how virtual meetings are perceived by potential participants,
+it is important that the performance of networks satisfies these
+participants at a level where there's willingness to use them over
+other potentially more environmentally harmful methods, such as
+travel.
 
-Note that while virtual meetings are a common example, important to
+Note that while virtual meetings are a common example, it is important to
 consider different use cases, some of which may not be as obvious to
 us human users as meetings are. Improvements may bring different or
 even larger impacts in other situations, e.g., Internet connected
@@ -700,7 +726,7 @@ electronics might benefit from different characteristics than human
 users, e.g., with regards to support for intermittent connectivity.
 
 The relationships between different system components and the impact
-of various detailed design choices in network is not always
+of various detailed design choices in networks is not always
 apparent. A local change in one node may have an impact in other
 nodes. When considering environmental sustainability, in most cases
 the overall system impact is what counts more than local impacts. Of
@@ -734,7 +760,7 @@ highlighted in discussions:
 * Designing systems for energy constrained situations may actually
   make the resulting systems work well in several environments.
 
-### Actions
+### Actions {#actions}
 
 The workshop discussed a number of possible actions. These actions are
 not about how to take specific technical solutions forward, but rather
@@ -747,42 +773,53 @@ to focus on:
    around this topic is also useful.
 
 * It is useful to find a role and a scope for IETF work in this
-  area. IETF will not develop alternative energy sources, work on
+  area. The IETF will not develop alternative energy sources, work on
   social issues or have detailed discussions about implementation
-  strategies or electronics design. However, IETF has a role in
+  strategies or electronics design. However, the IETF has a role in
   measurement mechanisms, protocol design and standards -- but of
   course activities in this role need to be aware of other aspects,
   such as implementation strategies.
 
-* There are IETF activities on specific technologies are already
+* Increase our understanding of the environmental impacts of
+  Internet technologies. One discussion topic
+  during the workshop was also whether each new RFC should
+  dedicate a section to discuss the these impacts. No conclusion
+  was drawn about the way to document these in RFCs, but it is clear
+  that the IETF community will need to understand the environmental
+  issues better.
+
+* IETF activities on specific technologies are already
    ongoing/starting, such as metrics, or the new Time Variant Routing
    (TVR) working group. It may be useful to start from picking the
-   low-hanging fruits, such as focusing on the use of efficient data
-   formats, avoiding crypto assets, and being able to carry
-   information that needs to be shared for the purposes of enabling
+   low-hanging fruits, such as:
+
+   * Focusing on the use of efficient data formats.
+   * Avoiding crypto assets - such as Non-Fungible Tokens
+   (NFTs) and cryptocurrencies.
+   * Being able to carry information that needs to be shared for the purposes of enabling
    load and time shifting.
 
 * Help initiate research activities that address some of the issues,
   such as broader gathering and sharing of measurement data, analysis
-  of this data and looking business related issues such as the impact
+  of this data and looking at business related issues such as the impact
   of peering or advertising impacts sustainability.  In addition,
-  there may be need to look at research for specific areas of
+  there may be a need to look at research for specific areas of
   improvements that are promising but not ready for standards
   discussion.
 
 In summary, the goals that the IETF should have include:
 
-* Full understanding of Internet’s environmental impact
+* Full understanding of the Internet’s environmental impact.
 * Continuous improvement of our technology.
 * Launching research relevant activities.
 
-# Feedback
+# Feedback {#feedback}
 
 The organizers received generally positive feedback about the workshop.
 
 One practical issue from the organizer's point of view was that due to
 the extension of the deadline, the final submissions and paper reviews
-collided in part with the IETF-115 meeting. This lead to it being very
+collided in part with the IETF-115 meeting. This led to it being very
 difficult for the program committee and practical organization staff
 to find time for the activity. We recommend avoiding such collisions
 in the future.
@@ -806,11 +843,11 @@ Such influence on security may come in different forms. For instance:
   purposes may be misused to cause denial-of-service or other types of
   attacks.
 
+* Avoiding the use of crypto assets where other mechanisms suffice.
 
 # IANA Considerations
 
 This document has no IANA actions.
-
 
 # Position Papers
 
@@ -882,7 +919,7 @@ The participants who attended at least one of the four sessions were:
 * Eric Voit
 * Eric Vyncke
 * Esther Roure Vila
-* Eve Schooler
+* Eve M. Schooler
 * Fieke Jansen
 * Franco Davoli
 * Gonzalo Salgueiro
