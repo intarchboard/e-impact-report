@@ -41,9 +41,9 @@ author:
 normative:
 
 informative:
-  RFC4689: 
-  RFC7540: 
-  RFC7980: 
+  RFC4689:
+  RFC7540:
+  RFC7980:
   RFC8949:
   Adams:
     title: "Extending IPv6 to support Carbon Aware Networking"
@@ -534,16 +534,16 @@ As an example demonstration of the diversity of angles and
 improvements relating to environmental issues, the figure below
 classifies the areas that workshop position papers fell on:
 
-    
-    
-              +---- Actors & organizations      
+
+
+              +---- Actors & organizations
               |                                 +---- Avoidance
-              +---- Benefits to other fields    |                   
+              +---- Benefits to other fields    |
               |                                 +---- User behaviour
-              +---- Society, awareness, &       |                     
+              +---- Society, awareness, &       |
               |     justice                     +---- Implementation
-              |                                 |                     
-    Workshop -+- Improvements ------------------+                 
+              |                                 |
+    Workshop -+- Improvements ------------------+
               |                                 |
               |     Understanding &             |       +---- Dataplane
               +---- Measurements                |       |
@@ -556,13 +556,13 @@ classifies the areas that workshop position papers fell on:
                                                         +---- Metrics
                                                         |
                                                         +---- Other
-     
-     
-          Figure 1: Position paper submission topics
-     
-     
 
-Some of the goals for the IETF should include:                                         
+
+          Figure 1: Position paper submission topics
+
+
+
+Some of the goals for the IETF should include:
 
 * Connecting the IETF with others. Given that the issue is broad, it is
   difficult for one standards organisation alone to make a significant
@@ -737,8 +737,8 @@ is very large, complex and that there is no single solution that fixes everythin
 There are some solutions that could help in the near term and others that
 would only show benefits over longer periods, but they are both necessary.
 
-One further challenge is that due to the size and complexity of the problem, it 
-was very likely that there might be varying opinions on what KPIs need 
+One further challenge is that due to the size and complexity of the problem, it
+was very likely that there might be varying opinions on what KPIs need
 to be measured and improved.
 
 ### Improvements {#nextstepsimprovements}
@@ -1040,7 +1040,7 @@ The participants who attended at least one of the four sessions were:
 
 # Acknowledgments
 
-Naturally, most of the credit goes to the workshop participants. 
+Naturally, most of the credit goes to the workshop participants.
 
 The organizers wish to thank Cindy Morgan and Greg Wood for their work on the
 practical arrangements and communications relating to he
