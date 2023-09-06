@@ -83,7 +83,7 @@ informative:
      - ins: Beatrice Siccardi
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
-  Clemm:
+  ClemmA:
     title: "Green Networking Metrics"
     author:
      - ins: A. Clemm
@@ -94,7 +94,7 @@ informative:
      - ins: M.-P. Odini
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
-  Clemm:
+  ClemmB:
     title: "Challenges and Opportunities in Green Networking"
     author:
      - ins: A. Clemm
@@ -922,8 +922,8 @@ The following position papers were submitted to the workshop:
 * Per Anderson, Suresh Krishnan, Jan Lindblad, Snezana Mitrovic, Marisol Palmero, Esther Roure, Gonzalo Salgueiro: "Sustainability Telemetry" {{Anderson}}
 * Jari Arkko, Nina Lövehagen, Pernilla Bergmark: "Environmental Impacts of the Internet: Scope, Improvements, and Challenges" {{Arkko}}
 * R. Bolla, R. Bruschi, F. Davoli, C. Lombardo, Beatrice Siccardi: "6Green: Green Technologies for 5/6G Service- Based Architectures" {{Bolla}}
-* Alexander Clemm, Lijun Dong, Greg Mirsky, Laurent Ciavaglia, Jeff Tantsura, Marie-Paule Odini: "Green Networking Metrics" {{Clemm}}
-* Alexander Clemm, Cedric Westphal, Jeff Tantsura, Laurent Ciavaglia, Marie-Paule Odini : "Challenges and Opportunities in Green Networking" {{Clemm}}
+* Alexander Clemm, Lijun Dong, Greg Mirsky, Laurent Ciavaglia, Jeff Tantsura, Marie-Paule Odini: "Green Networking Metrics" {{ClemmA}}
+* Alexander Clemm, Cedric Westphal, Jeff Tantsura, Laurent Ciavaglia, Marie-Paule Odini : "Challenges and Opportunities in Green Networking" {{ClemmB}}
 * Toerless Eckert, Mohamed Boucadair, Pascal Thubert, Jeff Tantsura: "IETF and Energy – An Overview" {{Eckert}}
 * Greening of Streaming: "Tune In. Turn On. Cut Back. Finding the optimal streaming 'default' mode to increase energy efficiency, shift consumer expectations, and safeguard choice" {{GOS}}
 * Romain Jacob: "Towards a power-proportional Internet" {{Jacob}}
