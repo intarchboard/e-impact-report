@@ -41,9 +41,9 @@ author:
 normative:
 
 informative:
-  RFC4689: 
-  RFC7540: 
-  RFC7980: 
+  RFC4689:
+  RFC7540:
+  RFC7980:
   RFC8949:
   Adams:
     title: "Extending IPv6 to support Carbon Aware Networking"
@@ -83,7 +83,7 @@ informative:
      - ins: Beatrice Siccardi
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
-  Clemm:
+  ClemmA:
     title: "Green Networking Metrics"
     author:
      - ins: A. Clemm
@@ -94,7 +94,7 @@ informative:
      - ins: M.-P. Odini
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
-  Clemm:
+  ClemmB:
     title: "Challenges and Opportunities in Green Networking"
     author:
      - ins: A. Clemm
@@ -439,7 +439,7 @@ We expected that the workshop discussions connect analysis of the issues
 needs (e.g., deployment opportunities) and solutions.
 
 Business and societal policy questions were in scope only insofar as
-they inform the workshop participants about the context we are in, but
+they informed the workshop participants about the context we are in, but
 what those policies should be was not for the workshop to decide or
 even extensively discuss. The scope excluded also how the technical
 community works and meets, such as the question of in-person or hybrid
@@ -515,7 +515,7 @@ need to be aware of carbon footprint rather than pure energy
 consumption - carbon intensity of energy sources varies.
 
 The starting observation from this session was that the issue is much
-bigger than our technology alone.  The issue influences all parts of
+bigger than Internet technology alone.  The issue influences all parts of
 society, and even matters such as (in)equality, externalized costs,
 and justice. Another key observation was that improvements come in
 many forms; there is no silver bullet. The opportunity to bring
@@ -534,16 +534,16 @@ As an example demonstration of the diversity of angles and
 improvements relating to environmental issues, the figure below
 classifies the areas that workshop position papers fell on:
 
-    
-    
-              +---- Actors & organizations      
+
+
+              +---- Actors & organizations
               |                                 +---- Avoidance
-              +---- Benefits to other fields    |                   
+              +---- Benefits to other fields    |
               |                                 +---- User behaviour
-              +---- Society, awareness, &       |                     
+              +---- Society, awareness, &       |
               |     justice                     +---- Implementation
-              |                                 |                     
-    Workshop -+- Improvements ------------------+                 
+              |                                 |
+    Workshop -+- Improvements ------------------+
               |                                 |
               |     Understanding &             |       +---- Dataplane
               +---- Measurements                |       |
@@ -556,13 +556,13 @@ classifies the areas that workshop position papers fell on:
                                                         +---- Metrics
                                                         |
                                                         +---- Other
-     
-     
-          Figure 1: Position paper submission topics
-     
-     
 
-Some of the goals for the IETF should include:                                         
+
+          Figure 1: Position paper submission topics
+
+
+
+Some of the goals for the IETF should include:
 
 * Connecting the IETF with others. Given that the issue is broad, it is
   difficult for one standards organisation alone to make a significant
@@ -579,7 +579,8 @@ Some of the goals for the IETF should include:
 * Finding the right targets for improvements in the Internet. These
   should perhaps not be solely defined by larger speeds or bigger
   capacity, but rather increased usefulness to society and declining
-  emissions from ICT.
+  emissions from the information and communications technology (ICT)
+  sector.
 
 * Specifying what research needs to be done, i.e., where additional
   knowledge would allow us to find better improvements. For instance,
@@ -596,10 +597,13 @@ The second session focused on what we know and do not know, and how we
 can measure environmental impacts.
 
 The initial presentation focused on narrowing down
-the lower and upper limits of the energy use of the Internet. There
+the lower and upper limits of the energy use of the Internet
+and putting some common but erroneous claims into context. There
 was also discussion regarding the energy consumption of the ICT sector
 and how it compares to some other selected industries such as
-aviation. Dwelling deeper into the energy consumption and the carbon
+aviation.
+
+Dwelling deeper into the energy consumption and the carbon
 footprint of the ICT sector there was discussion regarding how the
 impact was split amongst the networks, data centres and user devices
 (with the user devices appearing to contribute to the largest fraction
@@ -615,6 +619,8 @@ be that there was a lot of sensational headlines, but they were not really
 backed by measurements done by the industry and academia, and were fraught
 with errors. Some of these media reports were off by quite a bit, sometimes
 even by an order of magnitude (e.g., confusing MBps vs Mbps in calculations).
+The potential harm is having widely circulating misinformation was noted;
+it can hinder realistic efforts to reduce carbon emissions.
 
 In the rest of the session we looked at both
 additional data collected from the operators as well as factors that -
@@ -625,7 +631,12 @@ If energy consumption is little affected by offered load, the ratio of
 peak capacity to typical usage becomes a critical factor in energy
 consumption. On the other hand, systems with energy proportionality
 scale their resource and energy consumption more dynamically based on
-offered load. There were also observations that showed that the energy
+offered load.
+The lack of energy proportionality in many parts of the network
+infrastructure was noted, along with the potential gains if it
+can be improved.
+
+There were also observations that showed that the energy
 consumption grew as a step function when the peak capacity was
 reached (even instantaneously) and additional capacity was built up by
 performing network upgrades to handle these new peaks. This resulted
@@ -675,7 +686,8 @@ careful design and analysis of improvements from a system perspective,
 to ensure that the intended effect is indeed reached across the entire
 system, and is not only a local optimum.
 
-We also talked about the potentially significant impact of using
+We also talked about the potentially significant impact, provided
+the network exhibits energy proportionality, of using
 efficient binary formats instead of textual representations when
 carrying data in protocols. This is something that can be relatively
 easily adopted in new protocols as they are developed. Indeed, some
@@ -737,23 +749,30 @@ is very large, complex and that there is no single solution that fixes everythin
 There are some solutions that could help in the near term and others that
 would only show benefits over longer periods, but they are both necessary.
 
-One further challenge is that due to the size and complexity of the problem, it 
-was very likely that there might be varying opinions on what KPIs need 
+One further challenge is that due to the size and complexity of the problem, it
+was very likely that there might be varying opinions on what KPIs need
 to be measured and improved.
 
 ### Improvements {#nextstepsimprovements}
 
 In looking at potential improvements, it is essential that any
 associated tradeoffs can be understood (note that not all improvements
-do indeed entail a tradeoff). The role of the Internet in improving
-other areas of society must not be diminished.”  For instance,
+do indeed entail a tradeoff).
+
+Importantly, the role of the Internet in improving other areas of society
+must not be diminished. Understanding the costs and benefits requires
+taking a holistic view of energy consumption, focussing not just on the
+carbon footprint of the Internet but of the broader systems in which it
+is used.  For instance,
 discussion in session three revealed how some changes might impact
 latency and jitter. Given that these characteristics are an important
 factor how virtual meetings are perceived by potential participants,
 it is important that the performance of networks satisfies these
 participants at a level where there's willingness to use them over
 other potentially more environmentally harmful methods, such as
-travel.
+travel. Focussing solely on the carbon footprint of the Internet, or
+solely on the carbon footprint of travel, risks missing the bigger
+picture potential savings.
 
 Note that while virtual meetings are a common example, it is important to
 consider different use cases, some of which may not be as obvious to
@@ -833,7 +852,8 @@ to focus on:
    the new Time Variant Routing (TVR) working group {{TVR}}. It may be
    also useful to start from picking the low-hanging fruits, such as:
 
-   * Focusing on the use of efficient data formats.
+   * Focusing on improving energy proportionality and the consequent
+     use of efficient data formats.
    * Avoiding crypto assets - such as Non-Fungible Tokens
    (NFTs) and cryptocurrencies.
    * Being able to carry information that needs to be shared for the purposes of enabling
@@ -902,8 +922,8 @@ The following position papers were submitted to the workshop:
 * Per Anderson, Suresh Krishnan, Jan Lindblad, Snezana Mitrovic, Marisol Palmero, Esther Roure, Gonzalo Salgueiro: "Sustainability Telemetry" {{Anderson}}
 * Jari Arkko, Nina Lövehagen, Pernilla Bergmark: "Environmental Impacts of the Internet: Scope, Improvements, and Challenges" {{Arkko}}
 * R. Bolla, R. Bruschi, F. Davoli, C. Lombardo, Beatrice Siccardi: "6Green: Green Technologies for 5/6G Service- Based Architectures" {{Bolla}}
-* Alexander Clemm, Lijun Dong, Greg Mirsky, Laurent Ciavaglia, Jeff Tantsura, Marie-Paule Odini: "Green Networking Metrics" {{Clemm}}
-* Alexander Clemm, Cedric Westphal, Jeff Tantsura, Laurent Ciavaglia, Marie-Paule Odini : "Challenges and Opportunities in Green Networking" {{Clemm}}
+* Alexander Clemm, Lijun Dong, Greg Mirsky, Laurent Ciavaglia, Jeff Tantsura, Marie-Paule Odini: "Green Networking Metrics" {{ClemmA}}
+* Alexander Clemm, Cedric Westphal, Jeff Tantsura, Laurent Ciavaglia, Marie-Paule Odini : "Challenges and Opportunities in Green Networking" {{ClemmB}}
 * Toerless Eckert, Mohamed Boucadair, Pascal Thubert, Jeff Tantsura: "IETF and Energy – An Overview" {{Eckert}}
 * Greening of Streaming: "Tune In. Turn On. Cut Back. Finding the optimal streaming 'default' mode to increase energy efficiency, shift consumer expectations, and safeguard choice" {{GOS}}
 * Romain Jacob: "Towards a power-proportional Internet" {{Jacob}}
@@ -1040,7 +1060,7 @@ The participants who attended at least one of the four sessions were:
 
 # Acknowledgments
 
-Naturally, most of the credit goes to the workshop participants. 
+Naturally, most of the credit goes to the workshop participants.
 
 The organizers wish to thank Cindy Morgan and Greg Wood for their work on the
 practical arrangements and communications relating to he
