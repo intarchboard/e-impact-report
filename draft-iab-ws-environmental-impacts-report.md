@@ -114,6 +114,13 @@ informative:
      - ins: J. Tantsura
     date: December 2022
     seriesinfo: "Position paper in the IAB Workshop on Environmental Impacts of Internet Applications and Systems"
+  EIMPACT:
+    title: 
+      Environmental Impacts of Internet Technology
+    author:
+     - ins: "IAB"
+    date: August 2023
+    seriesinfo: "IAB Program, see https://datatracker.ietf.org/group/eimpact"
   GOS:
     title: "Tune In. Turn On. Cut Back. Finding the optimal streaming 'default' mode to increase energy efficiency, shift consumer expectations, and safeguard choice"
     author:
@@ -383,6 +390,12 @@ being discussed at the IETF, such as the Time Variant Routing (TVR)
 proposal that can help optimize connectivity with systems that are
 periodically on or reachable (such as satellites). We expect more
 proposals in the future.
+
+## About the contents of this workshop report
+
+This document is a report on the proceedings of the workshop. The views and positions documented in this report are those expressed during the workshop by participants, and do not necessarily reflect IAB views and positions.
+
+Furthermore, the content of the report comes from presentations given by workshop participants and notes taken during the discussions, without interpretation or validation. Thus, the content of this report follows the flow and dialog of the workshop and documents a few next steps and actions, but did not attempt to determine or record consensus on these.
 
 # Scope {#scope}
 
@@ -873,6 +886,8 @@ In summary, the goals that the IETF should have include:
 * Continuous improvement of our technology.
 * Launching research relevant activities.
 
+To support these goals the IAB has created the eimpact program {{EIMPACT}} as a venue for further discussions concerning environmental impacts and sustainability of Internet technology.
+
 # Feedback {#feedback}
 
 The organizers received generally positive feedback about the workshop.
@@ -1044,17 +1059,19 @@ The participants who attended at least one of the four sessions were:
 
 # IAB Members at the Time of Approval
 
-* Jari Arkko, Ericsson
-* Deborah Brungard, AT&T
+Internet Architecture Board members at the time this document was approved for publication were:
+   
+* Dhruv Dhody, Huawei
 * Lars Eggert, NetApp
 * Wes Hardaker, USC/ISI
 * Cullen Jennings, Cisco Systems
 * Mallory Knodel, Center for Democracy and Technology
+* Suresh Krishnan, Cisco
 * Mirja Kühlewind, Ericsson
-* Zhenbin Li, Huawei
 * Tommy Pauly, Apple
+* Alvaro Retana, Futurewei
 * David Schinazi, Google
-* Russ White, Akamai
+* Christopher Wood, Cloudflare
 * Qin Wu, Huawei Technologies
 * Jiankang Yao, CNNIC China Internet Network Information Center
 
